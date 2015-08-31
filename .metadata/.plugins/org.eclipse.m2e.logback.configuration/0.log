@@ -1,0 +1,77 @@
+2015-08-31 05:48:07,430 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.onsimulator:SimulatorUtils:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\SimulatorUtils\pom.xml.
+2015-08-31 05:48:08,939 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:48:08,955 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:48:08,958 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:48:08,960 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:48:11,653 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:48:11,661 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:48:11,663 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:48:11,664 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:48:34,900 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.onsimulator:SimulatorKernel:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\SimulatorKernel\pom.xml.
+2015-08-31 05:48:35,521 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:48:35,523 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:48:35,526 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:48:35,527 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\SimulatorKernel\src\test\resources
+2015-08-31 05:48:36,138 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.onsimulator:SimulatorKernel:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\SimulatorKernel\pom.xml.
+2015-08-31 05:48:37,075 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:48:37,076 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:48:37,079 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:48:37,080 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\SimulatorKernel\src\test\resources
+2015-08-31 05:48:57,651 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.onsimulator:ONSimulator:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\EonSimulator\pom.xml.
+2015-08-31 05:48:57,761 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for br.ufpe.eonsimulator:k-shortest-path:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2015-08-31 05:49:00,615 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for br.ufpe.eonsimulator:k-shortest-path:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2015-08-31 05:49:00,641 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:49:00,644 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2015-08-31 05:49:00,656 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:49:00,657 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:49:22,068 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.onsimulator:PLSimulator:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\PLSimulator\pom.xml.
+2015-08-31 05:49:23,625 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.onsimulator:PLSimulator:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\PLSimulator\pom.xml.
+2015-08-31 05:49:23,847 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:49:23,849 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-08-31 05:49:23,862 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:49:23,863 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:49:25,081 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.onsimulator:PLSimulator:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\PLSimulator\pom.xml.
+2015-08-31 05:49:25,096 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:49:25,099 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-08-31 05:49:25,109 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:49:25,110 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:49:26,236 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:49:26,237 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:49:26,240 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:49:26,241 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:50:10,806 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.eonsimulator:k-shortest-path:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\pom.xml.
+2015-08-31 05:50:10,875 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.eonsimulator:k-shortest-path:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\pom.xml.
+2015-08-31 05:50:10,933 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.onsimulator:ONSimulator:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\EonSimulator\pom.xml.
+2015-08-31 05:50:11,233 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:11,234 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\src\main\resources
+2015-08-31 05:50:11,236 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:11,237 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\src\test\resources
+2015-08-31 05:50:11,928 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ufpe.eonsimulator:k-shortest-path:0.0.1-SNAPSHOT @ C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\pom.xml.
+2015-08-31 05:50:12,383 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:12,385 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\src\main\resources
+2015-08-31 05:50:12,388 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:12,389 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\src\test\resources
+2015-08-31 05:50:13,382 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:13,385 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2015-08-31 05:50:13,402 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:13,423 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:50:37,413 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:37,415 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:50:37,419 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:37,421 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:50:50,552 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:50,554 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:50:50,558 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:50:50,559 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\SimulatorKernel\src\test\resources
+2015-08-31 05:51:02,717 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:51:02,719 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:51:02,723 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:51:02,725 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:51:14,622 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:51:14,624 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\src\main\resources
+2015-08-31 05:51:14,627 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:51:14,629 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marcelo\GitProjects\EonSimulator\k-shortest-path\src\test\resources
+2015-08-31 05:51:26,467 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:51:26,468 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-31 05:51:26,471 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-31 05:51:26,472 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

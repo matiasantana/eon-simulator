@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/20119df7bc4f0015158093b5e1cae5b9=20119df7bc4f0015158093b5e1cae5b9;https\://eon-simulator.googlecode.com/svn/Commons/SimulatorUtils;https\://eon-simulator.googlecode.com/svn/Commons/SimulatorUtils;branches;tags;trunk;true;07f18660-a1d9-25fd-fc89-dcef9164d3ac;https\://eon-simulator.googlecode.com/svn;;false;;;0
+repositories/501d2c2cbd4f0015158093b5e1cae5b9=501d2c2cbd4f0015158093b5e1cae5b9;https\://eon-simulator.googlecode.com/svn/PLSimulator;https\://eon-simulator.googlecode.com/svn/PLSimulator;branches;tags;trunk;true;07f18660-a1d9-25fd-fc89-dcef9164d3ac;https\://eon-simulator.googlecode.com/svn;;false;;;0
