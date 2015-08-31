@@ -1,0 +1,60 @@
+# EON Simulation Messages File
+
+power.info=Calculo OSNR para Elemento ({0}): Potencia ({1} dBm), Ruido ({2} dBm), OSNR ({3} dB)
+
+power.osnr.info=OSNR: Valor -> ({0}), Ruido ({1}), OSNR -> ({2}) 
+
+compensatedNode.gSet.info=Setando ganho do No inserido no No Compensado ({0}) para ({1} dB).
+compensatedNode.gResult.info=Calculo da perda do No inserido no No Compensado ({0}): ({1} dB).  
+
+span.info.g=Calculo da perda da Fibra do Span ({0}): alfa ({1}), comprimento ({2}): Resultado ({3} dB). 
+
+lineAmplifier.ase.info=Calculo ASE do amplificador. Figura de Ruido ({0} dB), Rs ({1} bounds), Frequencia Central ({2} Hz), G ({3} dB). Resultado: ({4} dBm)
+
+gnli.info=Resultado GNLI : ({0}) dBm.
+
+simulation.remove.connection.info=Removendo conexao entre Elemento ({0}) e Elemento ({1})
+
+simulation.clearing.info=Removendo conexoes por timeout ...
+simulation.start.info=Iniciando Nova Simulacao
+
+trafficGenerator.info=Tentativa de conexao entre Elemento ({0}) e Elemento ({1}).
+
+route.info=Foram encontradas as seguintes rotas para a conexao:
+route.info.indexs=Rota -> ({0})
+
+simulation.route.notFound=Rota nao encontrada para os Elementos ({0}) e ({1})
+
+simulation.invalidPath.info=Nao foi possivel fazer a atribuicao de espectro. Incrementando probabilidade de bloqueio camada de rede.
+simulation.invalidOSNR.info=Nao foi possivel atender a OSNR requerida para o formato de modulacao. Incrementando probabilidade de bloqueio camada fisica.
+simulation.osnr.info=Calculo de OSNR. OSNRreq ({0}), OSNR link atual ({1}), OSNR link dual ({2}), Custo Rota ({3}), Custo Rota Dual ({4})
+simulation.valid.path.osnr.info=Conexao estabelicida com sucesso!
+simulation.erlang.info=Erlang (Traffic): ({0})
+simulation.bitRate.info=BitRate: ({0}) bps
+simulation.results.info=Numero de Requisicoes ({0}), Probabilidade de Bloqueio ({1}), Probabilidade de Bloqueio Camada de Rede ({2}), Probabilidade de Bloqueio Camada Fisica ({3}), Taxa de Rotas Validas ({4})	
+simulation.results.bitRate.info=Numero de Requisicoes ({0}), Probabilidade de Bloqueio ({1})
+simulation.factory.info=Criando elementos para uma nova simulacao ...
+
+simulation.route.info=Rota ({2}): Slots livres ({0}), OSNR atendida ({1})
+
+simulation.route.bestRoute.info=Melhor rota encontrada ({0}). Slots livres ({1}), OSNR atendida ({2}). Numero de Slots Requeridos ({3}). Bit Rate Requerida ({4}) OSNR Requerida ({5})
+
+gnli.info.div=16 / 27=({0})
+gnli.info.gama2=Gama²=({0})
+gnli.info.leff=Leff(alfa,ls)²=({0})
+gnli.info.gwdm=GWDM({0})=({1})
+gnli.info.gwdm12=GWDM({0} + {1} - {2})=({3})
+gnli.info.ro=RO({0},{1},{2})=({3})
+gnli.info.xi=XI({0},{1},{2})=({3})
+gnli.info.value=RESULTADO({0},{1},{2})=({3})
+
+simulation.route.tryingNewModulationFormat=OSNRreq ({0} dB), Numero de Slots requeridos ({1}). Tentando um formato de modulacao ...
+
+modulation.requiredOSNR=OSNR para ({0}) bps : ({1}) dB
+modulation.requiredNSlots=Numero de Slots Requeridos: ({0})
+
+simulation.finish.info=Tempo decorrido de simulacao: {0} s
+
+simulation.route_check.results.info=Valor Route Check ({0})
+
+simulation.iteration.info=Iniciando iteracao ({0})

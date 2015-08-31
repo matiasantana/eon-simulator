@@ -1,0 +1,16 @@
+package br.ufpe.eonsimulator.rsa;
+
+import java.util.List;
+
+import br.ufpe.eonsimulator.domain.Connection;
+import br.ufpe.eonsimulator.domain.Route;
+import br.ufpe.eonsimulator.domain.Simulation;
+
+public interface IsRSAAlgorithm {
+
+	RSAWrapper getRSAWrapper(List<Route> routes,
+			Simulation simulation, Connection connection);
+
+	List<RSAWrapper> getQoTRSAWrapper(List<Route> routes,
+			Simulation simulation, Connection connection);
+}

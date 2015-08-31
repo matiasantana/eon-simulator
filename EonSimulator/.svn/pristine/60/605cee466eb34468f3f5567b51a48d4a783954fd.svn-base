@@ -1,0 +1,100 @@
+package br.ufpe.eonsimulator.trafficGenerators;
+
+import java.util.Properties;
+
+import br.ufpe.eonsimulator.trafficGenerators.arrivalTimeGenerators.ExponentialArrivalTime;
+import br.ufpe.eonsimulator.trafficGenerators.arrivalTimeGenerators.IsArrivalTimeGenerator;
+import br.ufpe.eonsimulator.trafficGenerators.bitRateGenerators.ConstantTraffic;
+import br.ufpe.eonsimulator.trafficGenerators.bitRateGenerators.RandomTrafficUniform;
+import br.ufpe.eonsimulator.trafficGenerators.bitRateGenerators.IsBitRateGenerator;
+import br.ufpe.eonsimulator.trafficGenerators.deathTimeGenerators.ExponentialDeathRate;
+import br.ufpe.eonsimulator.trafficGenerators.deathTimeGenerators.IsDeathRateGenerator;
+import br.ufpe.eonsimulator.trafficGenerators.nodePairGenerators.IsNodePairGenerator;
+import br.ufpe.eonsimulator.trafficGenerators.nodePairGenerators.RandomNodePairGenerator;
+import br.ufpe.simulator.utils.ConvertUtils;
+
+public class TrafficGeneratorFactory {
+
+	private static final String NODEPAIR_GENERATOR_KEY = "simulation.nodePairGenerator";
+	private static final String BITRATE_GENERATOR_KEY = "simulation.bitRateGenerator";
+	private static final String ARRIVAL_TIME_GENERATOR_KEY = "simulation.arrivalTimeGenerator";
+	private static final String DEATH_RATE_GENERATOR_KEY = "simulation.deathRateGenerator";
+	private static final String BITRATE_CONSTANT_BITRATE_KEY = "simulation.constantTraffic.bitRate";
+
+	public static TrafficGenerator createTrafficGenerator(Properties properties) {
+		IsNodePairGenerator nodePairGenerator = createNodePairGenerator(properties);
+		IsBitRateGenerator bitRateGenerator = createBitRateGenerator(properties);
+		IsArrivalTimeGenerator arrivalTimeGenerator = createArrivalTimeGenerator(properties);
+		IsDeathRateGenerator deathRateGenerator = createDeathRateGenerator(properties);
+		return new TrafficGenerator(nodePairGenerator, bitRateGenerator,
+				arrivalTimeGenerator, deathRateGenerator);
+	}
+
+	private static IsNodePairGenerator createNodePairGenerator(
+			Properties properties) {
+		IsNodePairGenerator nodePairGenerator = null;
+		int key = ConvertUtils.convertToInteger(properties
+				.getProperty(NODEPAIR_GENERATOR_KEY));
+		switch (key) {
+		case 0:
+			nodePairGenerator = new RandomNodePairGenerator();
+			break;
+
+		default:
+			break;
+		}
+		return nodePairGenerator;
+	}
+
+	private static IsBitRateGenerator createBitRateGenerator(
+			Properties properties) {
+		IsBitRateGenerator bitRateGenerator = null;
+		int key = ConvertUtils.convertToInteger(properties
+				.getProperty(BITRATE_GENERATOR_KEY));
+		double bitRate = ConvertUtils.convertToDouble(properties
+				.getProperty(BITRATE_CONSTANT_BITRATE_KEY));
+		switch (key) {
+		case 0:
+			bitRateGenerator = new RandomTrafficUniform();
+			break;
+		case 1:
+			bitRateGenerator = new ConstantTraffic(bitRate);
+			break;
+		default:
+			break;
+		}
+		return bitRateGenerator;
+	}
+
+	private static IsArrivalTimeGenerator createArrivalTimeGenerator(
+			Properties properties) {
+		IsArrivalTimeGenerator arrivalTimeGenerator = null;
+		int key = ConvertUtils.convertToInteger(properties
+				.getProperty(ARRIVAL_TIME_GENERATOR_KEY));
+		switch (key) {
+		case 0:
+			arrivalTimeGenerator = new ExponentialArrivalTime();
+			break;
+
+		default:
+			break;
+		}
+		return arrivalTimeGenerator;
+	}
+
+	private static IsDeathRateGenerator createDeathRateGenerator(
+			Properties properties) {
+		IsDeathRateGenerator deathRateGenerator = null;
+		int key = ConvertUtils.convertToInteger(properties
+				.getProperty(DEATH_RATE_GENERATOR_KEY));
+		switch (key) {
+		case 0:
+			deathRateGenerator = new ExponentialDeathRate();
+			break;
+
+		default:
+			break;
+		}
+		return deathRateGenerator;
+	}
+}

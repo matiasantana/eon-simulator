@@ -1,0 +1,86 @@
+package br.ufpe.simulatorkernel.domain;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import br.ufpe.simulator.math.MathUtils;
+import br.ufpe.simulator.messages.MessageUtils;
+
+public class Span extends IsPhysicalElement {
+
+	private static Logger logger = Logger.getLogger(Span.class);
+
+	private Fiber fiber;
+	private LineAmplifier spanLineAmplifier;
+
+	private static final String SPAN_INFO_G = "span.info.g";
+
+	public Span() {
+		super();
+		this.spanLineAmplifier = new LineAmplifier();
+	}
+
+	public Span(Fiber fiber) {
+		this();
+		this.setFiber(fiber);
+	}
+
+	public Fiber getFiber() {
+		return fiber;
+	}
+
+	public void setFiber(Fiber fiber) {
+		this.fiber = fiber;
+		this.spanLineAmplifier.setG(1 / fiber.getG());
+	}
+
+	public LineAmplifier getLineAmplifier() {
+		return spanLineAmplifier;
+	}
+
+	public void setSpanLineAmplifier(LineAmplifier spanLineAmplifier) {
+		this.spanLineAmplifier = spanLineAmplifier;
+	}
+
+	@Override
+	public double getLinearNoise(double bitRate) {
+		return this.spanLineAmplifier.getLinearNoise(bitRate);
+	}
+
+	@Override
+	public double getDistance() {
+		return fiber.getDistance();
+	}
+
+	@Override
+	public double getNli(SlotOccupancyCollection slotOccupancyCollection,
+			List<Double> powerList) {
+		return fiber.getNli(slotOccupancyCollection, powerList);
+	}
+
+	@Override
+	public double getG() {
+		double d = fiber.getG();
+		logger.info(MessageUtils.createMessage(SPAN_INFO_G, getIndex(),
+				fiber.getAlfadB(), fiber.getLs(),
+				MathUtils.convertLinearTodB(d)));
+		return d * spanLineAmplifier.getG();
+	}
+
+	@Override
+	public boolean isTopologyNode() {
+		return false;
+	}
+
+	public void setNoiseFigure(double noiseFigure) {
+		this.spanLineAmplifier.setNoiseFigure(noiseFigure);
+	}
+
+	public Span clone() {
+		Span clone = new Span();
+		clone.setFiber(fiber.clone());
+		clone.setNoiseFigure(this.spanLineAmplifier.getNoiseFigure());
+		return clone;
+	}
+}

@@ -1,0 +1,117 @@
+package br.ufpe.eonsimulator.routing.ordering;
+
+import org.apache.log4j.Logger;
+
+import br.ufpe.eonsimulator.domain.Route;
+import br.ufpe.simulator.messages.MessageUtils;
+
+public class RouteOrderingWrapper implements Comparable<RouteOrderingWrapper> {
+
+	private static Logger logger = Logger.getLogger(RouteOrderingWrapper.class);
+	private static final String SIMULATION_ROUTE_INFO = "simulation.route.info";
+
+	private int index;
+	private boolean isPathValid;
+	private boolean isOSNRValid;
+	private Route route;
+	private double requiredOSNR;
+
+	public RouteOrderingWrapper(int index, boolean isPathValid,
+			boolean isOSNRValid, Route route, double requiredOSNR) {
+		super();
+		this.index = index;
+		this.isPathValid = isPathValid;
+		this.isOSNRValid = isOSNRValid;
+		this.route = route;
+		this.requiredOSNR = requiredOSNR;
+		doLog(isPathValid, isOSNRValid, route);
+	}
+
+	private void doLog(boolean isPathValid, boolean isOSNRValid, Route route) {
+		logger.info(MessageUtils.createMessage(SIMULATION_ROUTE_INFO,
+				isPathValid, isOSNRValid, route.getSeparatedElementsIndex()));
+	}
+
+	@Override
+	public int compareTo(RouteOrderingWrapper other) {
+		if (isPathValid && isOSNRValid && other.isOSNRValid
+				&& other.isPathValid) {
+			return compareToOtherEquals(other);
+		} else if (isPathValid && isOSNRValid) {
+			return -1;
+		} else if (other.isOSNRValid && other.isPathValid) {
+			return 1;
+		} else if (isOSNRValid && other.isOSNRValid) {
+			return compareToOtherEquals(other);
+		} else if (isOSNRValid) {
+			return -1;
+		} else if (other.isOSNRValid) {
+			return 1;
+		} else if (isPathValid && other.isPathValid) {
+			return compareToOtherEquals(other);
+		} else if (isPathValid) {
+			return -1;
+		} else if (other.isPathValid) {
+			return 1;
+		} else {
+			return compareToOtherEquals(other);
+		}
+	}
+
+	private int compareToOtherEquals(RouteOrderingWrapper other) {
+		if (index < other.index) {
+			return -1;
+		} else if (index > other.index) {
+			return 1;
+		} else {
+			return 0;
+		}
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + index;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		RouteOrderingWrapper other = (RouteOrderingWrapper) obj;
+		if (index != other.index)
+			return false;
+		return true;
+	}
+
+	public boolean isValid() {
+		return isOSNRValid && isPathValid;
+	}
+
+	public Route getRoute() {
+		return route;
+	}
+
+	public boolean isOSNRValid() {
+		return isOSNRValid;
+	}
+
+	public boolean isPathValid() {
+		return isPathValid;
+	}
+
+	public double getRequiredOSNR() {
+		return requiredOSNR;
+	}
+
+	public void setRequiredOSNR(double requiredOSNR) {
+		this.requiredOSNR = requiredOSNR;
+	}
+
+}

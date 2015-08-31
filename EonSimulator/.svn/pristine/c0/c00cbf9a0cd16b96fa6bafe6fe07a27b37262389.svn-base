@@ -1,0 +1,108 @@
+package br.ufpe.eonsimulator.business;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import br.ufpe.eonsimulator.domain.Connection;
+import br.ufpe.eonsimulator.domain.Route;
+import br.ufpe.eonsimulator.domain.Simulation;
+import br.ufpe.eonsimulator.routing.ordering.RouteOrderingWrapper;
+import br.ufpe.simulator.messages.MessageUtils;
+import br.ufpe.simulator.utils.ConvertUtils;
+
+/**
+ * A simple simulation approach based on creating connection requests.
+ */
+public class SimpleSimulationController implements IsSimulationController {
+
+	// Private class for Simulation Route information
+	private static Logger logger = Logger
+			.getLogger(SimpleSimulationController.class);
+	private static final String SIMULATION_CLEARING_INFO = "simulation.clearing.info";
+	private static final String SIMULATION_START_INFO = "simulation.start.info";
+	private static final String SIMULATION_ROUTE_NOT_FOUND = "simulation.route.notFound";
+	private static final String SIMULATION_INVALID_PATH_INFO = "simulation.invalidPath.info";
+	private static final String SIMULATION_INVALID_OSNR_INFO = "simulation.invalidOSNR.info";
+	private static final String SIMULATION_VALID_PATH_OSNR_INFO = "simulation.valid.path.osnr.info";
+	private static final String SIMULATION_FINISH_INFO = "simulation.finish.info";
+	private static final String SIMULATION_RESULTS_INFO = "simulation.results.info";
+
+	@Override
+	public void run(Simulation simulation) {
+		do {
+			logger.info(MessageUtils.createMessage(SIMULATION_START_INFO));
+			logger.info(MessageUtils.createMessage(SIMULATION_CLEARING_INFO));
+			simulation.clear();
+			for (int numberConnectionIndex = 0; numberConnectionIndex < simulation
+					.getMaxNumberConnection(); numberConnectionIndex++) {
+				simulation.getSimulationResults().incrementNumberOfRequests();
+				simulation.clearElapsedConnections(); // Removes all the
+														// connections with
+														// elapsed time;
+				// Defines the node pair, the bit rate and the death time of the
+				// connection
+				Connection connection = simulation.getTrafficGenerator()
+						.createConnection(simulation);
+				// Calculate the routes using the routing algorithm
+				List<Route> routes = simulation.getIsRoutingAlgorithm()
+						.createRoutes(connection, simulation.getTopology(),
+								simulation.getCostFunction());
+
+				// If routing returned at least one route solution:
+				if (routes != null && !routes.isEmpty()) {
+					RouteOrderingWrapper simulationRouteWrapper = simulation
+							.getRouteOrderingAlgorithm()
+							.getBestOrderedRouteWrapper(routes, simulation,
+									connection);
+
+					if (simulationRouteWrapper.isValid()) {
+						logger.info(MessageUtils
+								.createMessage(SIMULATION_VALID_PATH_OSNR_INFO));
+						connection.setRoute(simulationRouteWrapper.getRoute());
+						simulation.getTopology().connect(
+								simulationRouteWrapper.getRoute());
+						simulation.addConnection(connection);
+					}
+
+					else if (!simulationRouteWrapper.isOSNRValid()) {
+						logger.info(MessageUtils
+								.createMessage(SIMULATION_INVALID_OSNR_INFO));
+						simulation.getSimulationResults()
+								.incrementNumberOfPhysicalBlocking();
+					}
+
+					else if (!simulationRouteWrapper.isPathValid()) {
+						logger.info(MessageUtils
+								.createMessage(SIMULATION_INVALID_PATH_INFO));
+						simulation.getSimulationResults()
+								.incrementNumberOfNetworkBlockedRequests();
+					}
+
+				} else {
+					logger.info(MessageUtils.createMessage(
+							SIMULATION_ROUTE_NOT_FOUND, connection
+									.getPhysicalElementPair().getSource()
+									.getIndex(), connection
+									.getPhysicalElementPair().getTarget()
+									.getIndex()));
+				}
+				simulation.setSimulationTime(simulation.getTrafficGenerator()
+						.getArrivalTimeGen().getArrivalTime(simulation));
+			}
+			System.out.println(MessageUtils.createMessage(
+					SIMULATION_FINISH_INFO, simulation.getErlangTraffic()));
+			System.out.println(MessageUtils.createMessage(
+					SIMULATION_RESULTS_INFO, simulation.getSimulationResults()
+							.getNumberOfRequests(), ConvertUtils
+							.convertToString(simulation.getSimulationResults()
+									.getBlockingProbability()), ConvertUtils
+							.convertToString(simulation.getSimulationResults()
+									.getNetworkBlockingProbability()),
+					ConvertUtils.convertToString(simulation
+							.getSimulationResults()
+							.getPhysicalBlockingProbability())));
+		} while (simulation.nextSimulation());
+	}
+
+}

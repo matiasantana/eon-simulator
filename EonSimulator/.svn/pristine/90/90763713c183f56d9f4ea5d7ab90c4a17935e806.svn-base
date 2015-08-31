@@ -1,0 +1,86 @@
+package br.ufpe.eonsimulator.domain;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.ufpe.simulatorkernel.domain.Link;
+import br.ufpe.simulatorkernel.domain.Power;
+import br.ufpe.simulator.utils.CollectionsUtils;
+
+public class Route {
+	private List<Link> links;
+	private int initialSlot;
+	private int finalSlot;
+
+	public Route() {
+		this.initialSlot = -1;
+		this.finalSlot = -1;
+		this.links = new ArrayList<Link>();
+	}
+
+	public List<Link> getLinks() {
+		return links;
+	}
+
+	public int getNumberSlots() {
+		int numberSlot = 0;
+		if (links != null && !links.isEmpty()) {
+			numberSlot = links.get(0).getOcSpectrumCollection()
+					.getNumberSlots();
+		}
+		return numberSlot;
+	}
+
+	public boolean isPathValid() {
+		return initialSlot > -1 && finalSlot > -1 ? true : false;
+	}
+
+	public int getInitialSlot() {
+		return initialSlot;
+	}
+
+	public void setInitialSlot(int initialSlot) {
+		this.initialSlot = initialSlot;
+	}
+
+	public int getFinalSlot() {
+		return finalSlot;
+	}
+
+	public void setFinalSlot(int finalSlot) {
+		this.finalSlot = finalSlot;
+	}
+
+	public void addLink(Link link) {
+		this.links.add(link);
+	}
+
+	public void addLinkLastPosition(Link link) {
+		this.links.add(links.size(), link);
+	}
+
+	public Link getLastLink() {
+		return CollectionsUtils.getLast(links);
+	}
+
+	public Link getFirstLink() {
+		return CollectionsUtils.getFirst(links);
+	}
+
+	public String getSeparatedElementsIndex() {
+		String string = "";
+		for (Link link : links) {
+			string += link.getSourceNode().getIndex() + " "
+					+ link.getTargetNode().getIndex() + " ";
+		}
+		return string;
+	}
+
+	public double getOSNR(double rs) {
+		Power power = null;
+		for (Link link : links) {
+			power = link.getPhysicalElementsPower(power, rs);
+		}
+		return power != null ? power.getOSNR() : 0;
+	}
+}

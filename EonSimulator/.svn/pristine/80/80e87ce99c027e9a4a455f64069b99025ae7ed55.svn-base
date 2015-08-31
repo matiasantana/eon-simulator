@@ -1,0 +1,111 @@
+package br.ufpe.eonsimulator.domain;
+
+public class SimulationParameters {
+
+	private double connectionCurrentArrivalRate;
+	private double connectionDeathRate;
+	private double connectionMinArrival;
+	private double connectionMaxArrival;
+	private double connectionMinBitRate;
+	private double connectionMaxBitRate;
+	private int numberGraphPoints;
+	private boolean isConnectionExpandible;
+	private double connectionSlotWidth;
+	private int maxSlotExpandUnits;
+
+	public double getConnectionDeathRate() {
+		return connectionDeathRate;
+	}
+
+	public void setConnectionDeathRate(double connectionDeathRate) {
+		this.connectionDeathRate = connectionDeathRate;
+	}
+
+	public double getConnectionMinArrival() {
+		return connectionMinArrival;
+	}
+
+	public void setConnectionMinArrival(double connectionMinArrival) {
+		this.connectionMinArrival = connectionMinArrival;
+		this.connectionCurrentArrivalRate = connectionMinArrival;
+	}
+
+	public int getNumberGraphPoints() {
+		return numberGraphPoints;
+	}
+
+	public void setNumberGraphPoints(int numberGraphPoints) {
+		this.numberGraphPoints = numberGraphPoints;
+	}
+
+	public boolean isConnectionExpandible() {
+		return isConnectionExpandible;
+	}
+
+	public void setConnectionExpandible(boolean isConnectionExpandible) {
+		this.isConnectionExpandible = isConnectionExpandible;
+	}
+
+	public double getConnectionMinBitRate() {
+		return connectionMinBitRate;
+	}
+
+	private void setConnectionMinBitRate(double connectionMinBitRate) {
+		this.connectionMinBitRate = connectionMinBitRate;
+	}
+
+	public double getConnectionMaxBitRate() {
+		return connectionMaxBitRate;
+	}
+
+	private void setConnectionMaxBitRate(double connectionMaxBitRate) {
+		this.connectionMaxBitRate = connectionMaxBitRate;
+	}
+
+	public double getConnectionMaxArrival() {
+		return connectionMaxArrival;
+	}
+
+	public void setConnectionMaxArrival(double connectionMaxArrival) {
+		this.connectionMaxArrival = connectionMaxArrival;
+	}
+
+	public double getConnectionCurrentArrivalRate() {
+		return connectionCurrentArrivalRate;
+	}
+
+	public boolean isMaxArrivalRateReached() {
+		return connectionCurrentArrivalRate >= connectionMaxArrival;
+	}
+
+	public void incrementArrivalRate() {
+		connectionCurrentArrivalRate += (connectionMaxArrival - connectionMinArrival)
+				/ (numberGraphPoints - 1);
+	}
+
+	public void setConnectionSlotWidth(double connectionSlotWidth) {
+		this.connectionSlotWidth = connectionSlotWidth;
+
+	}
+
+	public void setConnectionMaxSlotExpand(int expandSlotUnits) {
+		this.maxSlotExpandUnits = expandSlotUnits;
+		this.setConnectionMaxBitRate(this.connectionSlotWidth * expandSlotUnits);
+
+	}
+
+	public int getMaxSlotExpandUnits() {
+		return this.maxSlotExpandUnits;
+	}
+
+	public void setConnectionMinSlotExpand(int expandSlotsUnits) {
+		this.setConnectionMinBitRate(this.connectionSlotWidth
+				* expandSlotsUnits);
+
+	}
+
+	public double getConnectionSlotWidth() {
+		return connectionSlotWidth;
+	}
+
+}

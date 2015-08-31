@@ -1,0 +1,44 @@
+package br.ufpe.eonsimulator.rsa;
+
+import br.ufpe.eonsimulator.domain.Connection;
+import br.ufpe.eonsimulator.domain.OSNRUtils;
+import br.ufpe.eonsimulator.domain.Route;
+import br.ufpe.eonsimulator.domain.Simulation;
+import br.ufpe.eonsimulator.modulation.IsModulationFormat;
+
+public class RSAMaxLengthAlgorithm extends RSAAlgorithm {
+
+	private class RSAMaxLengthWrapper extends RSAWrapper {
+
+		public RSAMaxLengthWrapper(int index, boolean isPathValid,
+				boolean isOSNRValid, Route route, double requiredOSNR,
+				int nSlots) {
+			super(index, isPathValid, isOSNRValid, route, requiredOSNR, nSlots);
+		}
+
+		@Override
+		protected int compareToOtherEquals(RSAWrapper other) {
+			double thisLength = getRoute().getDistance();
+			double otherLength = other.getRoute().getDistance();
+			if (thisLength > otherLength) {
+				return -1;
+			} else if (thisLength < otherLength) {
+				return 1;
+			} else {
+				return 0;
+			}
+		}
+
+	}
+
+	@Override
+	protected RSAWrapper createRSAWrapper(int index, Route route,
+			Simulation simulation, Connection connection,
+			IsModulationFormat modulationFormat, int nSlots) {
+		return new RSAMaxLengthWrapper(index, route.isPathValid(),
+				OSNRUtils.isValidOSNR(simulation, connection, route,
+						modulationFormat.getNSymbol()), route,
+				connection.getRequiredOSNR(), nSlots);
+	}
+
+}

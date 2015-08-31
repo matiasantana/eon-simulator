@@ -1,0 +1,66 @@
+
+#Simulation Topology 
+
+#Topology Elements
+#simulation.topology.nodeX.type -> 0 Node, 1 CompensatedNode, 2 Fiber, 3 LineAmplifier, 4 Span, 5 Laser, 6 SpanSet
+
+#Type CompensatedNode
+#simulation.topology.nodeX.g Gain
+
+#Type Span
+#simulation.topology.nodeX.lossCoefficient (db/Km)
+#simulation.topology.nodeX.length (Km)
+
+#Type SpanSet
+#simulation.topology.nodeX.lossCoefficient (db/Km)
+#simulation.topology.nodeX.length (Km)
+(#simulation.topology.nodeX.numberOfSpans
+#simulation.topology.nodeX.a, OR
+#simulation.topology.nodeX.totalLength (Km)
+) 
+
+#Line Amplifier
+#simulation.topology.nodeX.noiseFigure (dB)
+#simulation.topology.nodeX.g (dB)
+
+#Laser
+#simulation.topology.nodeX.gain (dBm)
+#simulation.topology.nodeX.osnr (dB) (-1 means Infinty OSNR)
+
+simulation.topology.numberOfElements=5
+
+#Laser
+simulation.topology.element0.type=5
+simulation.topology.element0.gain=0
+simulation.topology.element0.osnr=30
+
+#Node A
+simulation.topology.element1.type=0
+simulation.topology.element1.g=0
+
+#Fiber Amp1->Amp2
+simulation.topology.element2.type=6
+simulation.topology.element2.lossCoefficient=0.2
+simulation.topology.element2.length=50
+simulation.topology.element2.totalLength=5000
+simulation.topology.element2.a=1
+simulation.topology.element2.noiseFigure=5
+
+#Node B
+simulation.topology.element3.type=0
+simulation.topology.element3.g=0
+
+#Fiber Amp3->Amp4
+simulation.topology.element4.type=4
+simulation.topology.element4.lossCoefficient=0.2
+simulation.topology.element4.length=50
+simulation.topology.element4.noiseFigure=5
+
+#Topology Elements Connections
+simulation.topology.numberOfLinks=2
+
+simulation.topology.link0.numberOfSlots=620
+simulation.topology.link0.elements=element0,element1,element2,element3
+
+simulation.topology.link1.numberOfSlots=620
+simulation.topology.link1.elements=element0,element3,element4,element1

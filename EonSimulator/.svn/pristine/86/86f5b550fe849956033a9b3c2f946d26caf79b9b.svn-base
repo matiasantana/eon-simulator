@@ -1,0 +1,1464 @@
+#Simulation Topology 
+
+#Topology Elements
+#simulation.topology.nodeX.type -> 0 Node, 1 CompensatedNode, 2 Fiber, 3 LineAmplifier, 4 Span, 5 Laser, 6 SpanSet
+
+#Type CompensatedNode
+#simulation.topology.nodeX.g Gain
+
+#Type Span
+#simulation.topology.nodeX.lossCoefficient (db/Km)
+#simulation.topology.nodeX.length (Km)
+
+#Type SpanSet
+#simulation.topology.nodeX.lossCoefficient (db/Km)
+#simulation.topology.nodeX.length (Km)
+#simulation.topology.nodeX.numberOfSpans
+#simulation.topology.nodeX.a, OR
+#simulation.topology.nodeX.totalLength (Km)
+
+#Line Amplifier
+#simulation.topology.nodeX.noiseFigure (dB)
+#simulation.topology.nodeX.g (dB)
+
+#Laser
+#simulation.topology.nodeX.gain (dBm)
+#simulation.topology.nodeX.osnr (dB) (-1 means Infinty OSNR)
+
+#http://imagebank.osa.org/getImage.xqy?img=cCF6ekAubGFyZ2Usb2UtMTEtMjItMjkxNy1nMDAz
+
+simulation.topology.numberOfElements=126
+
+#Laser
+simulation.topology.element0.type=5
+simulation.topology.element0.gain=0
+simulation.topology.element0.osnr=35
+
+#Node 0
+simulation.topology.element1.type=0
+simulation.topology.element1.g=0
+simulation.topology.element1.index=0
+
+#SpanSet 0->1
+simulation.topology.element2.type=6
+simulation.topology.element2.lossCoefficient=0.2
+simulation.topology.element2.length=5
+simulation.topology.element2.totalLength=5
+simulation.topology.element2.a=1
+simulation.topology.element2.b=1
+simulation.topology.element2.noiseFigure=5
+
+#SpanSet 1->0
+simulation.topology.element3.type=6
+simulation.topology.element3.lossCoefficient=0.2
+simulation.topology.element3.length=5
+simulation.topology.element3.totalLength=5
+simulation.topology.element3.a=1
+simulation.topology.element3.b=1
+simulation.topology.element3.noiseFigure=5
+
+#SpanSet 0->10
+simulation.topology.element4.type=6
+simulation.topology.element4.lossCoefficient=0.2
+simulation.topology.element4.length=5
+simulation.topology.element4.totalLength=5
+simulation.topology.element4.a=1
+simulation.topology.element4.b=1
+simulation.topology.element4.noiseFigure=5
+
+#SpanSet 10->0
+simulation.topology.element5.type=6
+simulation.topology.element5.lossCoefficient=0.2
+simulation.topology.element5.length=5
+simulation.topology.element5.totalLength=5
+simulation.topology.element5.a=1
+simulation.topology.element5.b=1
+simulation.topology.element5.noiseFigure=5
+
+#Node 1
+simulation.topology.element6.type=0
+simulation.topology.element6.g=0
+simulation.topology.element6.index=1
+
+#SpanSet 1->2
+simulation.topology.element7.type=6
+simulation.topology.element7.lossCoefficient=0.2
+simulation.topology.element7.length=5
+simulation.topology.element7.totalLength=5
+simulation.topology.element7.a=1
+simulation.topology.element7.b=1
+simulation.topology.element7.noiseFigure=5
+
+#SpanSet 2->1
+simulation.topology.element8.type=6
+simulation.topology.element8.lossCoefficient=0.2
+simulation.topology.element8.length=5
+simulation.topology.element8.totalLength=5
+simulation.topology.element8.a=1
+simulation.topology.element8.b=1
+simulation.topology.element8.noiseFigure=5
+
+#SpanSet 1->41
+simulation.topology.element9.type=6
+simulation.topology.element9.lossCoefficient=0.2
+simulation.topology.element9.length=5
+simulation.topology.element9.totalLength=20
+simulation.topology.element9.a=1
+simulation.topology.element9.b=1
+simulation.topology.element9.noiseFigure=5
+
+#SpanSet 41->1
+simulation.topology.element10.type=6
+simulation.topology.element10.lossCoefficient=0.2
+simulation.topology.element10.length=5
+simulation.topology.element10.totalLength=20
+simulation.topology.element10.a=1
+simulation.topology.element10.b=1
+simulation.topology.element10.noiseFigure=5
+
+#Node 2
+simulation.topology.element11.type=0
+simulation.topology.element11.g=0
+simulation.topology.element11.index=2
+
+#SpanSet 2->3
+simulation.topology.element12.type=6
+simulation.topology.element12.lossCoefficient=0.2
+simulation.topology.element12.length=5
+simulation.topology.element12.totalLength=5
+simulation.topology.element12.a=1
+simulation.topology.element12.b=1
+simulation.topology.element12.noiseFigure=5
+
+#SpanSet 3->2
+simulation.topology.element13.type=6
+simulation.topology.element13.lossCoefficient=0.2
+simulation.topology.element13.length=5
+simulation.topology.element13.totalLength=5
+simulation.topology.element13.a=1
+simulation.topology.element13.b=1
+simulation.topology.element13.noiseFigure=5
+
+#SpanSet 2->12
+simulation.topology.element14.type=6
+simulation.topology.element14.lossCoefficient=0.2
+simulation.topology.element14.length=5
+simulation.topology.element14.totalLength=5
+simulation.topology.element14.a=1
+simulation.topology.element14.b=1
+simulation.topology.element14.noiseFigure=5
+
+#SpanSet 12->2
+simulation.topology.element15.type=6
+simulation.topology.element15.lossCoefficient=0.2
+simulation.topology.element15.length=5
+simulation.topology.element15.totalLength=5
+simulation.topology.element15.a=1
+simulation.topology.element15.b=1
+simulation.topology.element15.noiseFigure=5
+
+#Node 3
+simulation.topology.element16.type=0
+simulation.topology.element16.g=0
+simulation.topology.element16.index=3
+
+#SpanSet 3->4
+simulation.topology.element17.type=6
+simulation.topology.element17.lossCoefficient=0.2
+simulation.topology.element17.length=5
+simulation.topology.element17.totalLength=5
+simulation.topology.element17.a=1
+simulation.topology.element17.b=1
+simulation.topology.element17.noiseFigure=5
+
+#SpanSet 4->3
+simulation.topology.element18.type=6
+simulation.topology.element18.lossCoefficient=0.2
+simulation.topology.element18.length=5
+simulation.topology.element18.totalLength=5
+simulation.topology.element18.a=1
+simulation.topology.element18.b=1
+simulation.topology.element18.noiseFigure=5
+
+#SpanSet 3->43
+simulation.topology.element19.type=6
+simulation.topology.element19.lossCoefficient=0.2
+simulation.topology.element19.length=5
+simulation.topology.element19.totalLength=20
+simulation.topology.element19.a=1
+simulation.topology.element19.b=1
+simulation.topology.element19.noiseFigure=5
+
+#SpanSet 43->3
+simulation.topology.element20.type=6
+simulation.topology.element20.lossCoefficient=0.2
+simulation.topology.element20.length=5
+simulation.topology.element20.totalLength=20
+simulation.topology.element20.a=1
+simulation.topology.element20.b=1
+simulation.topology.element20.noiseFigure=5
+
+#Node 4
+simulation.topology.element21.type=0
+simulation.topology.element21.g=0
+simulation.topology.element21.index=4
+
+#SpanSet 4->14
+simulation.topology.element22.type=6
+simulation.topology.element22.lossCoefficient=0.2
+simulation.topology.element22.length=5
+simulation.topology.element22.totalLength=5
+simulation.topology.element22.a=1
+simulation.topology.element22.b=1
+simulation.topology.element22.noiseFigure=5
+
+#SpanSet 14->4
+simulation.topology.element23.type=6
+simulation.topology.element23.lossCoefficient=0.2
+simulation.topology.element23.length=5
+simulation.topology.element23.totalLength=5
+simulation.topology.element23.a=1
+simulation.topology.element23.b=1
+simulation.topology.element23.noiseFigure=5
+
+#SpanSet 4->0
+simulation.topology.element24.type=6
+simulation.topology.element24.lossCoefficient=0.2
+simulation.topology.element24.length=5
+simulation.topology.element24.totalLength=20
+simulation.topology.element24.a=1
+simulation.topology.element24.b=1
+simulation.topology.element24.noiseFigure=5
+
+#SpanSet 0->4
+simulation.topology.element25.type=6
+simulation.topology.element25.lossCoefficient=0.2
+simulation.topology.element25.length=5
+simulation.topology.element25.totalLength=20
+simulation.topology.element25.a=1
+simulation.topology.element25.b=1
+simulation.topology.element25.noiseFigure=5
+
+#Node 10
+simulation.topology.element26.type=0
+simulation.topology.element26.g=0
+simulation.topology.element26.index=10
+
+#SpanSet 10->20
+simulation.topology.element27.type=6
+simulation.topology.element27.lossCoefficient=0.2
+simulation.topology.element27.length=5
+simulation.topology.element27.totalLength=5
+simulation.topology.element27.a=1
+simulation.topology.element27.b=1
+simulation.topology.element27.noiseFigure=5
+
+#SpanSet 20->10
+simulation.topology.element28.type=6
+simulation.topology.element28.lossCoefficient=0.2
+simulation.topology.element28.length=5
+simulation.topology.element28.totalLength=5
+simulation.topology.element28.a=1
+simulation.topology.element28.b=1
+simulation.topology.element28.noiseFigure=5
+
+#SpanSet 10->14
+simulation.topology.element29.type=6
+simulation.topology.element29.lossCoefficient=0.2
+simulation.topology.element29.length=5
+simulation.topology.element29.totalLength=20
+simulation.topology.element29.a=1
+simulation.topology.element29.b=1
+simulation.topology.element29.noiseFigure=5
+
+#SpanSet 14->10
+simulation.topology.element30.type=6
+simulation.topology.element30.lossCoefficient=0.2
+simulation.topology.element30.length=5
+simulation.topology.element30.totalLength=20
+simulation.topology.element30.a=1
+simulation.topology.element30.b=1
+simulation.topology.element30.noiseFigure=5
+
+#Node 11
+simulation.topology.element31.type=0
+simulation.topology.element31.g=0
+simulation.topology.element31.index=11
+
+#SpanSet 11->1
+simulation.topology.element32.type=6
+simulation.topology.element32.lossCoefficient=0.2
+simulation.topology.element32.length=5
+simulation.topology.element32.totalLength=5
+simulation.topology.element32.a=1
+simulation.topology.element32.b=1
+simulation.topology.element32.noiseFigure=5
+
+#SpanSet 1->11
+simulation.topology.element33.type=6
+simulation.topology.element33.lossCoefficient=0.2
+simulation.topology.element33.length=5
+simulation.topology.element33.totalLength=5
+simulation.topology.element33.a=1
+simulation.topology.element33.b=1
+simulation.topology.element33.noiseFigure=5
+
+#SpanSet 11->10
+simulation.topology.element34.type=6
+simulation.topology.element34.lossCoefficient=0.2
+simulation.topology.element34.length=5
+simulation.topology.element34.totalLength=5
+simulation.topology.element34.a=1
+simulation.topology.element34.b=1
+simulation.topology.element34.noiseFigure=5
+
+#SpanSet 10->11
+simulation.topology.element35.type=6
+simulation.topology.element35.lossCoefficient=0.2
+simulation.topology.element35.length=5
+simulation.topology.element35.totalLength=5
+simulation.topology.element35.a=1
+simulation.topology.element35.b=1
+simulation.topology.element35.noiseFigure=5
+
+#Node 12
+simulation.topology.element36.type=0
+simulation.topology.element36.g=0
+simulation.topology.element36.index=12
+
+#SpanSet 12->11
+simulation.topology.element37.type=6
+simulation.topology.element37.lossCoefficient=0.2
+simulation.topology.element37.length=5
+simulation.topology.element37.totalLength=5
+simulation.topology.element37.a=1
+simulation.topology.element37.b=1
+simulation.topology.element37.noiseFigure=5
+
+#SpanSet 11->12
+simulation.topology.element38.type=6
+simulation.topology.element38.lossCoefficient=0.2
+simulation.topology.element38.length=5
+simulation.topology.element38.totalLength=5
+simulation.topology.element38.a=1
+simulation.topology.element38.b=1
+simulation.topology.element38.noiseFigure=5
+
+#SpanSet 12->22
+simulation.topology.element39.type=6
+simulation.topology.element39.lossCoefficient=0.2
+simulation.topology.element39.length=5
+simulation.topology.element39.totalLength=5
+simulation.topology.element39.a=1
+simulation.topology.element39.b=1
+simulation.topology.element39.noiseFigure=5
+
+#SpanSet 22->12
+simulation.topology.element40.type=6
+simulation.topology.element40.lossCoefficient=0.2
+simulation.topology.element40.length=5
+simulation.topology.element40.totalLength=5
+simulation.topology.element40.a=1
+simulation.topology.element40.b=1
+simulation.topology.element40.noiseFigure=5
+
+#Node 13
+simulation.topology.element41.type=0
+simulation.topology.element41.g=0
+simulation.topology.element41.index=13
+
+#SpanSet 13->12
+simulation.topology.element42.type=6
+simulation.topology.element42.lossCoefficient=0.2
+simulation.topology.element42.length=5
+simulation.topology.element42.totalLength=5
+simulation.topology.element42.a=1
+simulation.topology.element42.b=1
+simulation.topology.element42.noiseFigure=5
+
+#SpanSet 12->13
+simulation.topology.element43.type=6
+simulation.topology.element43.lossCoefficient=0.2
+simulation.topology.element43.length=5
+simulation.topology.element43.totalLength=5
+simulation.topology.element43.a=1
+simulation.topology.element43.b=1
+simulation.topology.element43.noiseFigure=5
+
+#SpanSet 13->3
+simulation.topology.element44.type=6
+simulation.topology.element44.lossCoefficient=0.2
+simulation.topology.element44.length=5
+simulation.topology.element44.totalLength=5
+simulation.topology.element44.a=1
+simulation.topology.element44.b=1
+simulation.topology.element44.noiseFigure=5
+
+#SpanSet 3->13
+simulation.topology.element45.type=6
+simulation.topology.element45.lossCoefficient=0.2
+simulation.topology.element45.length=5
+simulation.topology.element45.totalLength=5
+simulation.topology.element45.a=1
+simulation.topology.element45.b=1
+simulation.topology.element45.noiseFigure=5
+
+#Node 14
+simulation.topology.element46.type=0
+simulation.topology.element46.g=0
+simulation.topology.element46.index=14
+
+#SpanSet 14->13
+simulation.topology.element47.type=6
+simulation.topology.element47.lossCoefficient=0.2
+simulation.topology.element47.length=5
+simulation.topology.element47.totalLength=5
+simulation.topology.element47.a=1
+simulation.topology.element47.b=1
+simulation.topology.element47.noiseFigure=5
+
+#SpanSet 14->13
+simulation.topology.element48.type=6
+simulation.topology.element48.lossCoefficient=0.2
+simulation.topology.element48.length=5
+simulation.topology.element48.totalLength=5
+simulation.topology.element48.a=1
+simulation.topology.element48.b=1
+simulation.topology.element48.noiseFigure=5
+
+#SpanSet 14->24
+simulation.topology.element49.type=6
+simulation.topology.element49.lossCoefficient=0.2
+simulation.topology.element49.length=5
+simulation.topology.element49.totalLength=5
+simulation.topology.element49.a=1
+simulation.topology.element49.b=1
+simulation.topology.element49.noiseFigure=5
+
+#SpanSet 24->14
+simulation.topology.element50.type=6
+simulation.topology.element50.lossCoefficient=0.2
+simulation.topology.element50.length=5
+simulation.topology.element50.totalLength=5
+simulation.topology.element50.a=1
+simulation.topology.element50.b=1
+simulation.topology.element50.noiseFigure=5
+
+#Node 20
+simulation.topology.element51.type=0
+simulation.topology.element51.g=0
+simulation.topology.element51.index=20
+
+#SpanSet 20->21
+simulation.topology.element52.type=6
+simulation.topology.element52.lossCoefficient=0.2
+simulation.topology.element52.length=5
+simulation.topology.element52.totalLength=5
+simulation.topology.element52.a=1
+simulation.topology.element52.b=1
+simulation.topology.element52.noiseFigure=5
+
+#SpanSet 21->20
+simulation.topology.element53.type=6
+simulation.topology.element53.lossCoefficient=0.2
+simulation.topology.element53.length=5
+simulation.topology.element53.totalLength=5
+simulation.topology.element53.a=1
+simulation.topology.element53.b=1
+simulation.topology.element53.noiseFigure=5
+
+#SpanSet 20->30
+simulation.topology.element54.type=6
+simulation.topology.element54.lossCoefficient=0.2
+simulation.topology.element54.length=5
+simulation.topology.element54.totalLength=5
+simulation.topology.element54.a=1
+simulation.topology.element54.b=1
+simulation.topology.element54.noiseFigure=5
+
+#SpanSet 30->20
+simulation.topology.element55.type=6
+simulation.topology.element55.lossCoefficient=0.2
+simulation.topology.element55.length=5
+simulation.topology.element55.totalLength=5
+simulation.topology.element55.a=1
+simulation.topology.element55.b=1
+simulation.topology.element55.noiseFigure=5
+
+#Node 21
+simulation.topology.element56.type=0
+simulation.topology.element56.g=0
+simulation.topology.element56.index=21
+
+#SpanSet 21->22
+simulation.topology.element57.type=6
+simulation.topology.element57.lossCoefficient=0.2
+simulation.topology.element57.length=5
+simulation.topology.element57.totalLength=5
+simulation.topology.element57.a=1
+simulation.topology.element57.b=1
+simulation.topology.element57.noiseFigure=5
+
+#SpanSet 22->21
+simulation.topology.element58.type=6
+simulation.topology.element58.lossCoefficient=0.2
+simulation.topology.element58.length=5
+simulation.topology.element58.totalLength=5
+simulation.topology.element58.a=1
+simulation.topology.element58.b=1
+simulation.topology.element58.noiseFigure=5
+
+#SpanSet 21->11
+simulation.topology.element59.type=6
+simulation.topology.element59.lossCoefficient=0.2
+simulation.topology.element59.length=5
+simulation.topology.element59.totalLength=5
+simulation.topology.element59.a=1
+simulation.topology.element59.b=1
+simulation.topology.element59.noiseFigure=5
+
+#SpanSet 11->21
+simulation.topology.element60.type=6
+simulation.topology.element60.lossCoefficient=0.2
+simulation.topology.element60.length=5
+simulation.topology.element60.totalLength=5
+simulation.topology.element60.a=1
+simulation.topology.element60.b=1
+simulation.topology.element60.noiseFigure=5
+
+#Node 22
+simulation.topology.element61.type=0
+simulation.topology.element61.g=0
+simulation.topology.element61.index=22
+
+#SpanSet 22->23
+simulation.topology.element62.type=6
+simulation.topology.element62.lossCoefficient=0.2
+simulation.topology.element62.length=5
+simulation.topology.element62.totalLength=5
+simulation.topology.element62.a=1
+simulation.topology.element62.b=1
+simulation.topology.element62.noiseFigure=5
+
+#SpanSet 23->22
+simulation.topology.element63.type=6
+simulation.topology.element63.lossCoefficient=0.2
+simulation.topology.element63.length=5
+simulation.topology.element63.totalLength=5
+simulation.topology.element63.a=1
+simulation.topology.element63.b=1
+simulation.topology.element63.noiseFigure=5
+
+#SpanSet 22->32
+simulation.topology.element64.type=6
+simulation.topology.element64.lossCoefficient=0.2
+simulation.topology.element64.length=5
+simulation.topology.element64.totalLength=5
+simulation.topology.element64.a=1
+simulation.topology.element64.b=1
+simulation.topology.element64.noiseFigure=5
+
+#SpanSet 32->22
+simulation.topology.element65.type=6
+simulation.topology.element65.lossCoefficient=0.2
+simulation.topology.element65.length=5
+simulation.topology.element65.totalLength=5
+simulation.topology.element65.a=1
+simulation.topology.element65.b=1
+simulation.topology.element65.noiseFigure=5
+
+#Node 23
+simulation.topology.element66.type=0
+simulation.topology.element66.g=0
+simulation.topology.element66.index=23
+
+#SpanSet 23->24
+simulation.topology.element67.type=6
+simulation.topology.element67.lossCoefficient=0.2
+simulation.topology.element67.length=5
+simulation.topology.element67.totalLength=5
+simulation.topology.element67.a=1
+simulation.topology.element67.b=1
+simulation.topology.element67.noiseFigure=5
+
+#SpanSet 24->23
+simulation.topology.element68.type=6
+simulation.topology.element68.lossCoefficient=0.2
+simulation.topology.element68.length=5
+simulation.topology.element68.totalLength=5
+simulation.topology.element68.a=1
+simulation.topology.element68.b=1
+simulation.topology.element68.noiseFigure=5
+
+#SpanSet 23->13
+simulation.topology.element69.type=6
+simulation.topology.element69.lossCoefficient=0.2
+simulation.topology.element69.length=5
+simulation.topology.element69.totalLength=5
+simulation.topology.element69.a=1
+simulation.topology.element69.b=1
+simulation.topology.element69.noiseFigure=5
+
+#SpanSet 13->23
+simulation.topology.element70.type=6
+simulation.topology.element70.lossCoefficient=0.2
+simulation.topology.element70.length=5
+simulation.topology.element70.totalLength=5
+simulation.topology.element70.a=1
+simulation.topology.element70.b=1
+simulation.topology.element70.noiseFigure=5
+
+#Node 24
+simulation.topology.element71.type=0
+simulation.topology.element71.g=0
+simulation.topology.element71.index=24
+
+#SpanSet 24->20
+simulation.topology.element72.type=6
+simulation.topology.element72.lossCoefficient=0.2
+simulation.topology.element72.length=5
+simulation.topology.element72.totalLength=20
+simulation.topology.element72.a=1
+simulation.topology.element72.b=1
+simulation.topology.element72.noiseFigure=5
+
+#SpanSet 20->24
+simulation.topology.element73.type=6
+simulation.topology.element73.lossCoefficient=0.2
+simulation.topology.element73.length=5
+simulation.topology.element73.totalLength=20
+simulation.topology.element73.a=1
+simulation.topology.element73.b=1
+simulation.topology.element73.noiseFigure=5
+
+#SpanSet 24->34
+simulation.topology.element74.type=6
+simulation.topology.element74.lossCoefficient=0.2
+simulation.topology.element74.length=5
+simulation.topology.element74.totalLength=5
+simulation.topology.element74.a=1
+simulation.topology.element74.b=1
+simulation.topology.element74.noiseFigure=5
+
+#SpanSet 34->24
+simulation.topology.element75.type=6
+simulation.topology.element75.lossCoefficient=0.2
+simulation.topology.element75.length=5
+simulation.topology.element75.totalLength=5
+simulation.topology.element75.a=1
+simulation.topology.element75.b=1
+simulation.topology.element75.noiseFigure=5
+
+#Node 30
+simulation.topology.element76.type=0
+simulation.topology.element76.g=0
+simulation.topology.element76.index=30
+
+#SpanSet 30->40
+simulation.topology.element77.type=6
+simulation.topology.element77.lossCoefficient=0.2
+simulation.topology.element77.length=5
+simulation.topology.element77.totalLength=5
+simulation.topology.element77.a=1
+simulation.topology.element77.b=1
+simulation.topology.element77.noiseFigure=5
+
+#SpanSet 40->30
+simulation.topology.element78.type=6
+simulation.topology.element78.lossCoefficient=0.2
+simulation.topology.element78.length=5
+simulation.topology.element78.totalLength=5
+simulation.topology.element78.a=1
+simulation.topology.element78.b=1
+simulation.topology.element78.noiseFigure=5
+
+#SpanSet 30->34
+simulation.topology.element79.type=6
+simulation.topology.element79.lossCoefficient=0.2
+simulation.topology.element79.length=5
+simulation.topology.element79.totalLength=20
+simulation.topology.element79.a=1
+simulation.topology.element79.b=1
+simulation.topology.element79.noiseFigure=5
+
+#SpanSet 34->30
+simulation.topology.element80.type=6
+simulation.topology.element80.lossCoefficient=0.2
+simulation.topology.element80.length=5
+simulation.topology.element80.totalLength=20
+simulation.topology.element80.a=1
+simulation.topology.element80.b=1
+simulation.topology.element80.noiseFigure=5
+
+#Node 31
+simulation.topology.element81.type=0
+simulation.topology.element81.g=0
+simulation.topology.element81.index=31
+
+#SpanSet 31->21
+simulation.topology.element82.type=6
+simulation.topology.element82.lossCoefficient=0.2
+simulation.topology.element82.length=5
+simulation.topology.element82.totalLength=5
+simulation.topology.element82.a=1
+simulation.topology.element82.b=1
+simulation.topology.element82.noiseFigure=5
+
+#SpanSet 21->31
+simulation.topology.element83.type=6
+simulation.topology.element83.lossCoefficient=0.2
+simulation.topology.element83.length=5
+simulation.topology.element83.totalLength=5
+simulation.topology.element83.a=1
+simulation.topology.element83.b=1
+simulation.topology.element83.noiseFigure=5
+
+#SpanSet 31->20
+simulation.topology.element84.type=6
+simulation.topology.element84.lossCoefficient=0.2
+simulation.topology.element84.length=5
+simulation.topology.element84.totalLength=5
+simulation.topology.element84.a=1
+simulation.topology.element84.b=1
+simulation.topology.element84.noiseFigure=5
+
+#SpanSet 20->31
+simulation.topology.element85.type=6
+simulation.topology.element85.lossCoefficient=0.2
+simulation.topology.element85.length=5
+simulation.topology.element85.totalLength=5
+simulation.topology.element85.a=1
+simulation.topology.element85.b=1
+simulation.topology.element85.noiseFigure=5
+
+#Node 32
+simulation.topology.element86.type=0
+simulation.topology.element86.g=0
+simulation.topology.element86.index=32
+
+#SpanSet 32->31
+simulation.topology.element87.type=6
+simulation.topology.element87.lossCoefficient=0.2
+simulation.topology.element87.length=5
+simulation.topology.element87.totalLength=5
+simulation.topology.element87.a=1
+simulation.topology.element87.b=1
+simulation.topology.element87.noiseFigure=5
+
+#SpanSet 31->32
+simulation.topology.element88.type=6
+simulation.topology.element88.lossCoefficient=0.2
+simulation.topology.element88.length=5
+simulation.topology.element88.totalLength=5
+simulation.topology.element88.a=1
+simulation.topology.element88.b=1
+simulation.topology.element88.noiseFigure=5
+
+#SpanSet 32->42
+simulation.topology.element89.type=6
+simulation.topology.element89.lossCoefficient=0.2
+simulation.topology.element89.length=5
+simulation.topology.element89.totalLength=5
+simulation.topology.element89.a=1
+simulation.topology.element89.b=1
+simulation.topology.element89.noiseFigure=5
+
+#SpanSet 42->32
+simulation.topology.element90.type=6
+simulation.topology.element90.lossCoefficient=0.2
+simulation.topology.element90.length=5
+simulation.topology.element90.totalLength=5
+simulation.topology.element90.a=1
+simulation.topology.element90.b=1
+simulation.topology.element90.noiseFigure=5
+
+#Node 33
+simulation.topology.element91.type=0
+simulation.topology.element91.g=0
+simulation.topology.element91.index=33
+
+#SpanSet 33->32
+simulation.topology.element92.type=6
+simulation.topology.element92.lossCoefficient=0.2
+simulation.topology.element92.length=5
+simulation.topology.element92.totalLength=5
+simulation.topology.element92.a=1
+simulation.topology.element92.b=1
+simulation.topology.element92.noiseFigure=5
+
+#SpanSet 32->33
+simulation.topology.element93.type=6
+simulation.topology.element93.lossCoefficient=0.2
+simulation.topology.element93.length=5
+simulation.topology.element93.totalLength=5
+simulation.topology.element93.a=1
+simulation.topology.element93.b=1
+simulation.topology.element93.noiseFigure=5
+
+#SpanSet 33->23
+simulation.topology.element94.type=6
+simulation.topology.element94.lossCoefficient=0.2
+simulation.topology.element94.length=5
+simulation.topology.element94.totalLength=5
+simulation.topology.element94.a=1
+simulation.topology.element94.b=1
+simulation.topology.element94.noiseFigure=5
+
+#SpanSet 23->33
+simulation.topology.element95.type=6
+simulation.topology.element95.lossCoefficient=0.2
+simulation.topology.element95.length=5
+simulation.topology.element95.totalLength=5
+simulation.topology.element95.a=1
+simulation.topology.element95.b=1
+simulation.topology.element95.noiseFigure=5
+
+#Node 34
+simulation.topology.element96.type=0
+simulation.topology.element96.g=0
+simulation.topology.element96.index=34
+
+#SpanSet 34->44
+simulation.topology.element97.type=6
+simulation.topology.element97.lossCoefficient=0.2
+simulation.topology.element97.length=5
+simulation.topology.element97.totalLength=5
+simulation.topology.element97.a=1
+simulation.topology.element97.b=1
+simulation.topology.element97.noiseFigure=5
+
+#SpanSet 44->34
+simulation.topology.element98.type=6
+simulation.topology.element98.lossCoefficient=0.2
+simulation.topology.element98.length=5
+simulation.topology.element98.totalLength=5
+simulation.topology.element98.a=1
+simulation.topology.element98.b=1
+simulation.topology.element98.noiseFigure=5
+
+#SpanSet 34->33
+simulation.topology.element99.type=6
+simulation.topology.element99.lossCoefficient=0.2
+simulation.topology.element99.length=5
+simulation.topology.element99.totalLength=5
+simulation.topology.element99.a=1
+simulation.topology.element99.b=1
+simulation.topology.element99.noiseFigure=5
+
+#SpanSet 33->34
+simulation.topology.element100.type=6
+simulation.topology.element100.lossCoefficient=0.2
+simulation.topology.element100.length=5
+simulation.topology.element100.totalLength=5
+simulation.topology.element100.a=1
+simulation.topology.element100.b=1
+simulation.topology.element100.noiseFigure=5
+
+#Node 40
+simulation.topology.element101.type=0
+simulation.topology.element101.g=0
+simulation.topology.element101.index=40
+
+#SpanSet 40->0
+simulation.topology.element102.type=6
+simulation.topology.element102.lossCoefficient=0.2
+simulation.topology.element102.length=5
+simulation.topology.element102.totalLength=20
+simulation.topology.element102.a=1
+simulation.topology.element102.b=1
+simulation.topology.element102.noiseFigure=5
+
+#SpanSet 0->40
+simulation.topology.element103.type=6
+simulation.topology.element103.lossCoefficient=0.2
+simulation.topology.element103.length=5
+simulation.topology.element103.totalLength=20
+simulation.topology.element103.a=1
+simulation.topology.element103.b=1
+simulation.topology.element103.noiseFigure=5
+
+#SpanSet 40->41
+simulation.topology.element104.type=6
+simulation.topology.element104.lossCoefficient=0.2
+simulation.topology.element104.length=5
+simulation.topology.element104.totalLength=5
+simulation.topology.element104.a=1
+simulation.topology.element104.b=1
+simulation.topology.element104.noiseFigure=5
+
+#SpanSet 41->40
+simulation.topology.element105.type=6
+simulation.topology.element105.lossCoefficient=0.2
+simulation.topology.element105.length=5
+simulation.topology.element105.totalLength=5
+simulation.topology.element105.a=1
+simulation.topology.element105.b=1
+simulation.topology.element105.noiseFigure=5
+
+#Node 41
+simulation.topology.element106.type=0
+simulation.topology.element106.g=0
+simulation.topology.element106.index=41
+
+#SpanSet 41->42
+simulation.topology.element107.type=6
+simulation.topology.element107.lossCoefficient=0.2
+simulation.topology.element107.length=5
+simulation.topology.element107.totalLength=5
+simulation.topology.element107.a=1
+simulation.topology.element107.b=1
+simulation.topology.element107.noiseFigure=5
+
+#SpanSet 42->41
+simulation.topology.element108.type=6
+simulation.topology.element108.lossCoefficient=0.2
+simulation.topology.element108.length=5
+simulation.topology.element108.totalLength=5
+simulation.topology.element108.a=1
+simulation.topology.element108.b=1
+simulation.topology.element108.noiseFigure=5
+
+#SpanSet 41->31
+simulation.topology.element109.type=6
+simulation.topology.element109.lossCoefficient=0.2
+simulation.topology.element109.length=5
+simulation.topology.element109.totalLength=5
+simulation.topology.element109.a=1
+simulation.topology.element109.b=1
+simulation.topology.element109.noiseFigure=5
+
+#SpanSet 31->41
+simulation.topology.element110.type=6
+simulation.topology.element110.lossCoefficient=0.2
+simulation.topology.element110.length=5
+simulation.topology.element110.totalLength=5
+simulation.topology.element110.a=1
+simulation.topology.element110.b=1
+simulation.topology.element110.noiseFigure=5
+
+#Node 42
+simulation.topology.element111.type=0
+simulation.topology.element111.g=0
+simulation.topology.element111.index=42
+
+#SpanSet 42->43
+simulation.topology.element112.type=6
+simulation.topology.element112.lossCoefficient=0.2
+simulation.topology.element112.length=5
+simulation.topology.element112.totalLength=5
+simulation.topology.element112.a=1
+simulation.topology.element112.b=1
+simulation.topology.element112.noiseFigure=5
+
+#SpanSet 43->42
+simulation.topology.element113.type=6
+simulation.topology.element113.lossCoefficient=0.2
+simulation.topology.element113.length=5
+simulation.topology.element113.totalLength=5
+simulation.topology.element113.a=1
+simulation.topology.element113.b=1
+simulation.topology.element113.noiseFigure=5
+
+#SpanSet 42->2
+simulation.topology.element114.type=6
+simulation.topology.element114.lossCoefficient=0.2
+simulation.topology.element114.length=5
+simulation.topology.element114.totalLength=20
+simulation.topology.element114.a=1
+simulation.topology.element114.b=1
+simulation.topology.element114.noiseFigure=5
+
+#SpanSet 2->42
+simulation.topology.element115.type=6
+simulation.topology.element115.lossCoefficient=0.2
+simulation.topology.element115.length=5
+simulation.topology.element115.totalLength=20
+simulation.topology.element115.a=1
+simulation.topology.element115.b=1
+simulation.topology.element115.noiseFigure=5
+
+#Node 43
+simulation.topology.element116.type=0
+simulation.topology.element116.g=0
+simulation.topology.element116.index=43
+
+#SpanSet 43->44
+simulation.topology.element117.type=6
+simulation.topology.element117.lossCoefficient=0.2
+simulation.topology.element117.length=5
+simulation.topology.element117.totalLength=5
+simulation.topology.element117.a=1
+simulation.topology.element117.b=1
+simulation.topology.element117.noiseFigure=5
+
+#SpanSet 44->43
+simulation.topology.element118.type=6
+simulation.topology.element118.lossCoefficient=0.2
+simulation.topology.element118.length=5
+simulation.topology.element118.totalLength=5
+simulation.topology.element118.a=1
+simulation.topology.element118.b=1
+simulation.topology.element118.noiseFigure=5
+
+#SpanSet 43->33
+simulation.topology.element119.type=6
+simulation.topology.element119.lossCoefficient=0.2
+simulation.topology.element119.length=5
+simulation.topology.element119.totalLength=5
+simulation.topology.element119.a=1
+simulation.topology.element119.b=1
+simulation.topology.element119.noiseFigure=5
+
+#SpanSet 33->43
+simulation.topology.element120.type=6
+simulation.topology.element120.lossCoefficient=0.2
+simulation.topology.element120.length=5
+simulation.topology.element120.totalLength=5
+simulation.topology.element120.a=1
+simulation.topology.element120.b=1
+simulation.topology.element120.noiseFigure=5
+
+#Node 44
+simulation.topology.element121.type=0
+simulation.topology.element121.g=0
+simulation.topology.element121.index=44
+
+#SpanSet 44->40
+simulation.topology.element122.type=6
+simulation.topology.element122.lossCoefficient=0.2
+simulation.topology.element122.length=5
+simulation.topology.element122.totalLength=20
+simulation.topology.element122.a=1
+simulation.topology.element122.b=1
+simulation.topology.element122.noiseFigure=5
+
+#SpanSet 40->44
+simulation.topology.element123.type=6
+simulation.topology.element123.lossCoefficient=0.2
+simulation.topology.element123.length=5
+simulation.topology.element123.totalLength=20
+simulation.topology.element123.a=1
+simulation.topology.element123.b=1
+simulation.topology.element123.noiseFigure=5
+
+#SpanSet 44->4
+simulation.topology.element124.type=6
+simulation.topology.element124.lossCoefficient=0.2
+simulation.topology.element124.length=5
+simulation.topology.element124.totalLength=20
+simulation.topology.element124.a=1
+simulation.topology.element124.b=1
+simulation.topology.element124.noiseFigure=5
+
+#SpanSet 4->44
+simulation.topology.element125.type=6
+simulation.topology.element125.lossCoefficient=0.2
+simulation.topology.element125.length=5
+simulation.topology.element125.totalLength=20
+simulation.topology.element125.a=1
+simulation.topology.element125.b=1
+simulation.topology.element125.noiseFigure=5
+
+
+#Topology Elements Connections
+simulation.topology.numberOfLinks=100
+
+#Link 0->1
+simulation.topology.link0.numberOfSlots=500
+simulation.topology.link0.elements=element0,element1,element2,element6
+
+#Link 1->0
+simulation.topology.link1.numberOfSlots=500
+simulation.topology.link1.elements=element0,element6,element3,element1
+
+#Link 0->10
+simulation.topology.link2.numberOfSlots=500
+simulation.topology.link2.elements=element0,element1,element4,element26
+
+#Link 10->0
+simulation.topology.link3.numberOfSlots=500
+simulation.topology.link3.elements=element0,element26,element5,element1
+
+#Link 1->2
+simulation.topology.link4.numberOfSlots=500
+simulation.topology.link4.elements=element0,element6,element7,element11
+
+#Link 2->1
+simulation.topology.link5.numberOfSlots=500
+simulation.topology.link5.elements=element0,element11,element8,element6
+
+#Link 1->41
+simulation.topology.link6.numberOfSlots=500
+simulation.topology.link6.elements=element0,element6,element9,element106
+
+#Link 41->1
+simulation.topology.link7.numberOfSlots=500
+simulation.topology.link7.elements=element0,element106,element10,element6
+
+#Link 2->3
+simulation.topology.link8.numberOfSlots=500
+simulation.topology.link8.elements=element0,element11,element12,element16
+
+#Link 3->2
+simulation.topology.link9.numberOfSlots=500
+simulation.topology.link9.elements=element0,element16,element13,element11
+
+#Link 2->12
+simulation.topology.link10.numberOfSlots=500
+simulation.topology.link10.elements=element0,element11,element14,element36
+
+#Link 12->2
+simulation.topology.link11.numberOfSlots=500
+simulation.topology.link11.elements=element0,element36,element15,element11
+
+#Link 3->4
+simulation.topology.link12.numberOfSlots=500
+simulation.topology.link12.elements=element0,element16,element17,element21
+
+#Link 4->3
+simulation.topology.link13.numberOfSlots=500
+simulation.topology.link13.elements=element0,element21,element18,element16
+
+#Link 3->43
+simulation.topology.link14.numberOfSlots=500
+simulation.topology.link14.elements=element0,element16,element19,element116
+
+#Link 43->3
+simulation.topology.link15.numberOfSlots=500
+simulation.topology.link15.elements=element0,element116,element20,element16
+
+#Link 4->0
+simulation.topology.link16.numberOfSlots=500
+simulation.topology.link16.elements=element0,element21,element24,element1
+
+#Link 0->4
+simulation.topology.link17.numberOfSlots=500
+simulation.topology.link17.elements=element0,element1,element25,element21
+
+#Link 4->14
+simulation.topology.link18.numberOfSlots=500
+simulation.topology.link18.elements=element0,element21,element22,element46
+
+#Link 14->4
+simulation.topology.link19.numberOfSlots=500
+simulation.topology.link19.elements=element0,element46,element23,element21
+
+#Link 10->14
+simulation.topology.link20.numberOfSlots=500
+simulation.topology.link20.elements=element0,element26,element29,element46
+
+#Link 14->10
+simulation.topology.link21.numberOfSlots=500
+simulation.topology.link21.elements=element0,element46,element30,element26
+
+#Link 10->20
+simulation.topology.link22.numberOfSlots=500
+simulation.topology.link22.elements=element0,element26,element27,element51
+
+#Link 20->10
+simulation.topology.link23.numberOfSlots=500
+simulation.topology.link23.elements=element0,element51,element28,element26
+
+#Link 11->10
+simulation.topology.link24.numberOfSlots=500
+simulation.topology.link24.elements=element0,element31,element34,element26
+
+#Link 10->11
+simulation.topology.link25.numberOfSlots=500
+simulation.topology.link25.elements=element0,element26,element35,element31
+
+#Link 11->1
+simulation.topology.link26.numberOfSlots=500
+simulation.topology.link26.elements=element0,element31,element32,element6
+
+#Link 1->11
+simulation.topology.link27.numberOfSlots=500
+simulation.topology.link27.elements=element0,element6,element33,element31
+
+#Link 12->11
+simulation.topology.link28.numberOfSlots=500
+simulation.topology.link28.elements=element0,element36,element37,element31
+
+#Link 11->12
+simulation.topology.link29.numberOfSlots=500
+simulation.topology.link29.elements=element0,element31,element38,element36
+
+#Link 12->22
+simulation.topology.link30.numberOfSlots=500
+simulation.topology.link30.elements=element0,element36,element39,element61
+
+#Link 22->12
+simulation.topology.link31.numberOfSlots=500
+simulation.topology.link31.elements=element0,element61,element40,element36
+
+#Link 13->12
+simulation.topology.link32.numberOfSlots=500
+simulation.topology.link32.elements=element0,element41,element42,element36
+
+#Link 12->13
+simulation.topology.link33.numberOfSlots=500
+simulation.topology.link33.elements=element0,element36,element43,element41
+
+#Link 13->3
+simulation.topology.link34.numberOfSlots=500
+simulation.topology.link34.elements=element0,element41,element44,element16
+
+#Link 3->13
+simulation.topology.link35.numberOfSlots=500
+simulation.topology.link35.elements=element0,element16,element45,element41
+
+#Link 14->13
+simulation.topology.link36.numberOfSlots=500
+simulation.topology.link36.elements=element0,element46,element47,element41
+
+#Link 13->14
+simulation.topology.link37.numberOfSlots=500
+simulation.topology.link37.elements=element0,element41,element48,element46
+
+#Link 14->24
+simulation.topology.link38.numberOfSlots=500
+simulation.topology.link38.elements=element0,element46,element49,element71
+
+#Link 24->14
+simulation.topology.link39.numberOfSlots=500
+simulation.topology.link39.elements=element0,element71,element50,element46
+
+#Link 20->21
+simulation.topology.link40.numberOfSlots=500
+simulation.topology.link40.elements=element0,element51,element52,element56
+
+#Link 21->20
+simulation.topology.link41.numberOfSlots=500
+simulation.topology.link41.elements=element0,element56,element53,element51
+
+#Link 20->30
+simulation.topology.link42.numberOfSlots=500
+simulation.topology.link42.elements=element0,element51,element54,element76
+
+#Link 30->20
+simulation.topology.link43.numberOfSlots=500
+simulation.topology.link43.elements=element0,element76,element55,element51
+
+#Link 21->22
+simulation.topology.link44.numberOfSlots=500
+simulation.topology.link44.elements=element0,element56,element57,element61
+
+#Link 22->21
+simulation.topology.link45.numberOfSlots=500
+simulation.topology.link45.elements=element0,element61,element58,element56
+
+#Link 21->11
+simulation.topology.link46.numberOfSlots=500
+simulation.topology.link46.elements=element0,element56,element59,element31
+
+#Link 11->21
+simulation.topology.link47.numberOfSlots=500
+simulation.topology.link47.elements=element0,element31,element60,element56
+
+#Link 22->23
+simulation.topology.link48.numberOfSlots=500
+simulation.topology.link48.elements=element0,element61,element62,element66
+
+#Link 23->22
+simulation.topology.link49.numberOfSlots=500
+simulation.topology.link49.elements=element0,element66,element63,element61
+
+#Link 22->32
+simulation.topology.link50.numberOfSlots=500
+simulation.topology.link50.elements=element0,element61,element64,element86
+
+#Link 32->22
+simulation.topology.link51.numberOfSlots=500
+simulation.topology.link51.elements=element0,element86,element65,element61
+
+#Link 23->24
+simulation.topology.link52.numberOfSlots=500
+simulation.topology.link52.elements=element0,element66,element67,element71
+
+#Link 24->23
+simulation.topology.link53.numberOfSlots=500
+simulation.topology.link53.elements=element0,element71,element68,element66
+
+#Link 23->13
+simulation.topology.link54.numberOfSlots=500
+simulation.topology.link54.elements=element0,element66,element69,element41
+
+#Link 13->23
+simulation.topology.link55.numberOfSlots=500
+simulation.topology.link55.elements=element0,element41,element70,element66
+
+#Link 24->20
+simulation.topology.link56.numberOfSlots=500
+simulation.topology.link56.elements=element0,element71,element72,element51
+
+#Link 20->24
+simulation.topology.link57.numberOfSlots=500
+simulation.topology.link57.elements=element0,element51,element73,element71
+
+#Link 24->34
+simulation.topology.link58.numberOfSlots=500
+simulation.topology.link58.elements=element0,element71,element74,element96
+
+#Link 34->24
+simulation.topology.link59.numberOfSlots=500
+simulation.topology.link59.elements=element0,element96,element75,element71
+
+#Link 30->34
+simulation.topology.link60.numberOfSlots=500
+simulation.topology.link60.elements=element0,element76,element79,element96
+
+#Link 34->30
+simulation.topology.link61.numberOfSlots=500
+simulation.topology.link61.elements=element0,element96,element80,element76
+
+#Link 30->40
+simulation.topology.link62.numberOfSlots=500
+simulation.topology.link62.elements=element0,element76,element77,element101
+
+#Link 40->30
+simulation.topology.link63.numberOfSlots=500
+simulation.topology.link63.elements=element0,element101,element78,element76
+
+#Link 31->30
+simulation.topology.link64.numberOfSlots=500
+simulation.topology.link64.elements=element0,element81,element84,element76
+
+#Link 30->31
+simulation.topology.link65.numberOfSlots=500
+simulation.topology.link65.elements=element0,element76,element85,element81
+
+#Link 31->21
+simulation.topology.link66.numberOfSlots=500
+simulation.topology.link66.elements=element0,element81,element82,element56
+
+#Link 21->31
+simulation.topology.link67.numberOfSlots=500
+simulation.topology.link67.elements=element0,element56,element83,element81
+
+#Link 32->31
+simulation.topology.link68.numberOfSlots=500
+simulation.topology.link68.elements=element0,element86,element87,element81
+
+#Link 31->32
+simulation.topology.link69.numberOfSlots=500
+simulation.topology.link69.elements=element0,element81,element88,element86
+
+#Link 32->42
+simulation.topology.link70.numberOfSlots=500
+simulation.topology.link70.elements=element0,element86,element89,element111
+
+#Link 42->32
+simulation.topology.link71.numberOfSlots=500
+simulation.topology.link71.elements=element0,element111,element90,element86
+
+#Link 33->32
+simulation.topology.link72.numberOfSlots=500
+simulation.topology.link72.elements=element0,element91,element92,element86
+
+#Link 32->33
+simulation.topology.link73.numberOfSlots=500
+simulation.topology.link73.elements=element0,element86,element93,element91
+
+#Link 33->23
+simulation.topology.link74.numberOfSlots=500
+simulation.topology.link74.elements=element0,element91,element94,element66
+
+#Link 23->33
+simulation.topology.link75.numberOfSlots=500
+simulation.topology.link75.elements=element0,element66,element95,element91
+
+#Link 34->33
+simulation.topology.link76.numberOfSlots=500
+simulation.topology.link76.elements=element0,element96,element99,element91
+
+#Link 33->34
+simulation.topology.link77.numberOfSlots=500
+simulation.topology.link77.elements=element0,element91,element100,element96
+
+#Link 34->44
+simulation.topology.link78.numberOfSlots=500
+simulation.topology.link78.elements=element0,element96,element97,element121
+
+#Link 44->34
+simulation.topology.link79.numberOfSlots=500
+simulation.topology.link79.elements=element0,element121,element98,element96
+
+#Link 40->41
+simulation.topology.link80.numberOfSlots=500
+simulation.topology.link80.elements=element0,element101,element104,element106
+
+#Link 41->40
+simulation.topology.link81.numberOfSlots=500
+simulation.topology.link81.elements=element0,element106,element105,element101
+
+#Link 40->0
+simulation.topology.link82.numberOfSlots=500
+simulation.topology.link82.elements=element0,element101,element102,element1
+
+#Link 0->40
+simulation.topology.link83.numberOfSlots=500
+simulation.topology.link83.elements=element0,element1,element103,element101
+
+#Link 41->42
+simulation.topology.link84.numberOfSlots=500
+simulation.topology.link84.elements=element0,element106,element107,element111
+
+#Link 42->41
+simulation.topology.link85.numberOfSlots=500
+simulation.topology.link85.elements=element0,element111,element108,element106
+
+#Link 41->31
+simulation.topology.link86.numberOfSlots=500
+simulation.topology.link86.elements=element0,element106,element109,element81
+
+#Link 31->41
+simulation.topology.link87.numberOfSlots=500
+simulation.topology.link87.elements=element0,element81,element110,element106
+
+#Link 42->43
+simulation.topology.link88.numberOfSlots=500
+simulation.topology.link88.elements=element0,element111,element112,element116
+
+#Link 43->42
+simulation.topology.link89.numberOfSlots=500
+simulation.topology.link89.elements=element0,element116,element113,element111
+
+#Link 42->2
+simulation.topology.link90.numberOfSlots=500
+simulation.topology.link90.elements=element0,element111,element114,element11
+
+#Link 2->42
+simulation.topology.link91.numberOfSlots=500
+simulation.topology.link91.elements=element0,element11,element115,element111
+
+#Link 43->44
+simulation.topology.link92.numberOfSlots=500
+simulation.topology.link92.elements=element0,element116,element117,element121
+
+#Link 44->43
+simulation.topology.link93.numberOfSlots=500
+simulation.topology.link93.elements=element0,element121,element118,element116
+
+#Link 43->33
+simulation.topology.link94.numberOfSlots=500
+simulation.topology.link94.elements=element0,element116,element119,element91
+
+#Link 33->43
+simulation.topology.link95.numberOfSlots=500
+simulation.topology.link95.elements=element0,element91,element120,element116
+
+#Link 44->40
+simulation.topology.link96.numberOfSlots=500
+simulation.topology.link96.elements=element0,element121,element122,element101
+
+#Link 40->44
+simulation.topology.link97.numberOfSlots=500
+simulation.topology.link97.elements=element0,element101,element123,element121
+
+#Link 44->4
+simulation.topology.link98.numberOfSlots=500
+simulation.topology.link98.elements=element0,element121,element124,element21
+
+#Link 4->44
+simulation.topology.link99.numberOfSlots=500
+simulation.topology.link99.elements=element0,element21,element125,element121

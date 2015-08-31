@@ -1,0 +1,66 @@
+package br.ufpe.eonsimulator.domain;
+
+public class SimulationResults {
+
+	private double numberOfBlockedRequests;
+	private double numberOfNetworkBlockedRequests;
+	private double sumOfRequests;
+	private long numberOfRequests;
+	private double numberOfPhysicalBlocking;
+	private long numberOfRoutes;
+	private long numberOfPhysicalValidRoutes;
+	private boolean blockProbabilityMode;
+
+	public SimulationResults(boolean blockProbabilityMode) {
+		this.blockProbabilityMode = blockProbabilityMode;
+	}
+
+	public void incrementNumberOfNetworkBlockedRequests(double bitRate) {
+		if (blockProbabilityMode) {
+			bitRate = 1;
+		}
+		this.numberOfNetworkBlockedRequests += bitRate;
+		this.numberOfBlockedRequests += bitRate;
+	}
+
+	public double getValidPhysicalRoutesRate() {
+		return (double) numberOfPhysicalValidRoutes / numberOfRoutes;
+	}
+
+	public void incrementNumberOfPhysicalValidRoutes(int validRoutes) {
+		this.numberOfPhysicalValidRoutes += validRoutes;
+		this.numberOfRoutes++;
+	}
+
+	public long getNumberOfRequests() {
+		return numberOfRequests;
+	}
+
+	public void incrementNumberOfRequests(double bitRate) {
+		if (blockProbabilityMode) {
+			bitRate = 1;
+		}
+		this.numberOfRequests++;
+		this.sumOfRequests += bitRate;
+	}
+
+	public void incrementNumberOfPhysicalBlocking(double bitRate) {
+		if (blockProbabilityMode) {
+			bitRate = 1;
+		}
+		this.numberOfPhysicalBlocking += bitRate;
+		this.numberOfBlockedRequests += bitRate;
+	}
+
+	public double getNetworkBlockingProbability() {
+		return (double) numberOfNetworkBlockedRequests / sumOfRequests;
+	}
+
+	public double getPhysicalBlockingProbability() {
+		return (double) numberOfPhysicalBlocking / sumOfRequests;
+	}
+
+	public double getBlockingProbability() {
+		return (double) numberOfBlockedRequests / sumOfRequests;
+	}
+}

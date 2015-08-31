@@ -1,0 +1,21 @@
+##File Out Configurations Root logger option
+#log4j.rootLogger=INFO, file
+log4j.rootLogger=OFF
+# Direct log messages to a log file
+log4j.appender.file=org.apache.log4j.RollingFileAppender
+ 
+log4j.appender.file.File=src/main/resources/eonSimulator.log
+log4j.appender.file.MaxFileSize=500MB
+log4j.appender.file.MaxBackupIndex=7
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%d [%-1t] %-5p %-30.30c{1} - %m%n
+
+# Console Configurations
+#log4j.rootLogger=DEBUG, console
+ 
+# Direct log messages to a log file
+#log4j.appender.console=DEBUG,org.apache.log4j.ConsoleAppender
+ 
+#log4j.appender.console=org.apache.log4j.ConsoleAppender
+#log4j.appender.console.layout=org.apache.log4j.PatternLayout
+#log4j.appender.console.layout.conversionPattern=%d [%-1t] %-5p %-30.30c{1} - %m%n

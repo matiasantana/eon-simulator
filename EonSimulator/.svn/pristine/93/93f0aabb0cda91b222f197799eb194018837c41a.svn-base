@@ -1,0 +1,25 @@
+package br.ufpe.eonsimulator.business;
+
+import java.util.Properties;
+
+import br.ufpe.simulator.utils.ConvertUtils;
+
+public class SimulationControllerFactory {
+
+	private static final String SIMULATORTYPE = "simulation.simulator";
+
+	public static IsSimulationController createSimulationController(
+			Properties properties) {
+		IsSimulationController simulationController = null;
+		int simulatorType = ConvertUtils.convertToInteger(properties
+				.getProperty(SIMULATORTYPE));
+		switch (simulatorType) {
+		case 0:
+			simulationController = new SimpleSimulationController();
+			break;
+		default:
+			break;
+		}
+		return simulationController;
+	}
+}

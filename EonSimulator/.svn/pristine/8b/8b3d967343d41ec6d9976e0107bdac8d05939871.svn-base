@@ -1,0 +1,98 @@
+package br.ufpe.eonsimulator.routing.ordering;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import br.ufpe.eonsimulator.domain.Connection;
+import br.ufpe.eonsimulator.domain.Route;
+import br.ufpe.eonsimulator.domain.Simulation;
+import br.ufpe.eonsimulator.modulation.IsModulationFormat;
+import br.ufpe.simulator.math.MathUtils;
+import br.ufpe.simulator.messages.MessageUtils;
+import br.ufpe.simulator.utils.ConvertUtils;
+
+public class DefaultRouteOrderingAlgorithm implements IsRouteOrderingAlgorithm {
+
+	private static Logger logger = Logger
+			.getLogger(DefaultRouteOrderingAlgorithm.class);
+	private static final String SIMULATION_OSNR_INFO = "simulation.osnr.info";
+	private static final String SIMULATION_ROUTE_BESTROUTE_INFO = "simulation.route.bestRoute.info";
+	private static final String SIMULATION_ROUTE_TRY_NEW_MODULATIONFORMAT_INFO = "simulation.route.tryingNewModulationFormat";
+
+	public RouteOrderingWrapper getBestOrderedRouteWrapper(List<Route> routes,
+			Simulation simulation, Connection connection) {
+		RouteOrderingWrapper routeWrapper = null;
+		boolean isValidRouteWrapper = false;
+		Iterator<IsModulationFormat> modulationFormatIterator = simulation
+				.getModulationFormats().iterator();
+		while (!isValidRouteWrapper && modulationFormatIterator.hasNext()) {
+			IsModulationFormat modulationFormat = modulationFormatIterator
+					.next();
+			connection.setNumberSlotRequired(modulationFormat
+					.createNumberOfRequiredSlots(simulation,
+							connection.getRequestedBitRate()));
+
+			connection.setRequiredOSNR(modulationFormat.createRequiredOSNR(
+					simulation, connection.getRequestedBitRate()));
+
+			List<RouteOrderingWrapper> routeWrappers = new ArrayList<RouteOrderingWrapper>();
+			for (Route route : routes) {
+				// Try to assign a wavelength to each path, using the WA
+				simulation.getIsAssignmentAlgorithm().trySpectrumAssignment(
+						connection, route);
+				RouteOrderingWrapper routeWrapper2 = new RouteOrderingWrapper(
+						routes.indexOf(route), route.isPathValid(),
+						isValidOSNR(simulation, connection, route,
+								modulationFormat.getNSymbol()), route,
+						connection.getRequiredOSNR());
+				routeWrappers.add(routeWrapper2);
+
+			}
+			Collections.sort(routeWrappers);
+			routeWrapper = routeWrappers.get(0);
+			if (routeWrapper.isValid()) {
+				logger.info(MessageUtils.createMessage(
+						SIMULATION_ROUTE_BESTROUTE_INFO, routeWrapper
+								.getRoute().getSeparatedElementsIndex(),
+						routeWrapper.isPathValid(), routeWrapper.isOSNRValid(),
+						connection.getNumberSlotRequired(), connection
+								.getRequestedBitRate(), ConvertUtils
+								.convertToString(MathUtils
+										.convertLinearTodB(connection
+												.getRequiredOSNR()))));
+				isValidRouteWrapper = true;
+			} else {
+				logger.info(MessageUtils.createMessage(
+						SIMULATION_ROUTE_TRY_NEW_MODULATIONFORMAT_INFO,
+						MathUtils.convertLinearTodB(connection
+								.getRequiredOSNR()), connection
+								.getNumberSlotRequired()));
+			}
+		}
+		return routeWrapper;
+	}
+
+	private boolean isValidOSNR(Simulation simulation, Connection connection,
+			Route route, double nSymbol) {
+
+		double connectionOSNR = connection.getRequiredOSNR();
+		double lastLinkOSNR = route.getOSNR();
+		double lastDualLinkOSNR = simulation.getTopology().getDualRoute(route)
+				.getOSNR();
+
+		logger.info(MessageUtils.createMessage(SIMULATION_OSNR_INFO,
+				ConvertUtils.convertToString(MathUtils
+						.convertLinearTodB(connectionOSNR)), ConvertUtils
+						.convertToString(MathUtils
+								.convertLinearTodB(lastLinkOSNR)), ConvertUtils
+						.convertToString(MathUtils
+								.convertLinearTodB(lastDualLinkOSNR))));
+
+		return lastLinkOSNR >= connectionOSNR
+				&& lastDualLinkOSNR >= connectionOSNR;
+	}
+}

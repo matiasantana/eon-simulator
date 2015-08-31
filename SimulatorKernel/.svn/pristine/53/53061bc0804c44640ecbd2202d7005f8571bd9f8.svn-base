@@ -1,0 +1,136 @@
+package br.ufpe.simulatorkernel.domain;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.ufpe.simulator.exceptions.EonSimulatorExceptions;
+import br.ufpe.simulator.math.functions.GNLIFactory.GNLILinkProperties;
+import br.ufpe.simulator.utils.StringUtil;
+
+public class SlotOccupancyCollection implements GNLILinkProperties {
+
+	private List<Slot> slots;
+
+	public SlotOccupancyCollection(int numberSlots) {
+		this.slots = new ArrayList<Slot>();
+		createSlots(numberSlots);
+	}
+
+	public Slot getSlot(int index) {
+		return slots.get(index);
+	}
+
+	public int getNumberSlots() {
+		return this.slots.size();
+	}
+
+	public boolean hasOnlyUnoccupiedSlots() {
+		boolean hasUnnocupiesSlots = true;
+		if (slots != null) {
+			for (Slot slot : slots) {
+				if (slot.isOccupied()) {
+					hasUnnocupiesSlots = false;
+					break;
+				}
+			}
+		}
+		return hasUnnocupiesSlots;
+	}
+
+	public List<Slot> getSlots() {
+		return slots;
+	}
+
+	public void setSlots(List<Slot> slots) {
+		this.slots = slots;
+	}
+
+	private void createSlots(int numberSlots) {
+		for (int i = 0; i < numberSlots; i++) {
+			slots.add(new Slot());
+		}
+	}
+
+	public void setSlotsAsOccupied(int slotInitial, int slotFinal) {
+		setSlotsOccupancy(slotInitial, slotFinal, true);
+	}
+
+	public void setSlotsAsUnoccupied(int slotInitial, int slotFinal) {
+		setSlotsOccupancy(slotInitial, slotFinal, false);
+	}
+
+	private void setSlotsOccupancy(int slotInitial, int slotFinal,
+			boolean setOccupied) {
+		String groupId = StringUtil.generateString();
+		if (!(slotFinal >= slotInitial && slotInitial >= 0)) {
+			throw new RuntimeException(
+					EonSimulatorExceptions.SLOT_INDEX_NOT_VALID_EXCEPTION);
+		}
+		for (int i = slotInitial; i <= slotFinal; i++) {
+			Slot slot = slots.get(i);
+			if (!(setOccupied && !slot.isOccupied() || !setOccupied
+					&& slot.isOccupied())) {
+				throw new RuntimeException(
+						EonSimulatorExceptions.SLOT_OCCUPANCY_NOT_VALID_EXCEPTION);
+			} else if (setOccupied) {
+				slot.setOccupied(groupId);
+			} else {
+				slot.setUnoccupied();
+			}
+		}
+	}
+
+	/**
+	 * 
+	 * @param ocSpectrumCollection
+	 */
+	public void mergeOccupancy(SlotOccupancyCollection ocSpectrumCollection) {
+
+		for (int i = 0; i < ocSpectrumCollection.getNumberSlots(); i++) {
+			if (!slots.get(i).isOccupied()) {
+				Slot slot = ocSpectrumCollection.getSlot(i);
+				if (slot.isOccupied()) {
+					String groupId = slot.getGroupId();
+					slots.get(i).setOccupied(groupId);
+				} else {
+					slots.get(i).setUnoccupied();
+				}
+			}
+		}
+
+	}
+
+	public SlotOccupancyCollection clone() {
+		SlotOccupancyCollection collection = new SlotOccupancyCollection(
+				slots.size());
+		for (int i = 0; i < slots.size(); i++) {
+			Slot slot = slots.get(i);
+			if (slot.isOccupied()) {
+				String groupId = slot.getGroupId();
+				collection.getSlot(i).setOccupied(groupId);
+			} else {
+				collection.getSlot(i).setUnoccupied();
+			}
+		}
+		return collection;
+	}
+
+	@Override
+	public List<Integer> getOccupancyList() {
+		List<Integer> occupancyList = new ArrayList<Integer>();
+		String groupId = null;
+		int groupIndex = 1;
+		for (Slot slot : slots) {
+			if (groupId != null && !groupId.equals(slot.getGroupId())) {
+				groupIndex++;
+			}
+			if (slot.isOccupied()) {
+				occupancyList.add(groupIndex);
+			} else {
+				occupancyList.add(0);
+			}
+			groupId = slot.getGroupId();
+		}
+		return occupancyList;
+	}
+}

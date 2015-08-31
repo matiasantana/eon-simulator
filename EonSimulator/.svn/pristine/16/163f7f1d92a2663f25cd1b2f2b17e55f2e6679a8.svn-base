@@ -1,0 +1,42 @@
+package br.ufpe.eonsimulator.routing;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import br.ufpe.eonsimulator.costFunctions.IsCostFunction;
+import br.ufpe.eonsimulator.domain.Connection;
+import br.ufpe.eonsimulator.domain.Route;
+import br.ufpe.eonsimulator.domain.Topology;
+import br.ufpe.simulator.messages.MessageUtils;
+
+public abstract class IsRoutingAlgorithm {
+
+	private static Logger logger = Logger.getLogger(IsRoutingAlgorithm.class);
+	private static final String ROUTE_INFO = "route.info";
+	private static final String ROUTE_INFO_INDEXS = "route.info.indexs";
+
+	public List<Route> createRoutes(Connection connection, Topology topology,
+			IsCostFunction costFunction) {
+		List<Route> routes = getRoutes(connection, topology, costFunction);
+		doLog(routes);
+		return routes;
+	}
+
+	private void doLog(List<Route> routes) {
+		if (routes != null) {
+			if (logger.isInfoEnabled()) {
+				logger.info(MessageUtils.createMessage(ROUTE_INFO));
+			}
+			for (Route route : routes) {
+				if (logger.isInfoEnabled()) {
+					logger.info(MessageUtils.createMessage(ROUTE_INFO_INDEXS,
+							route.getSeparatedElementsIndex()));
+				}
+			}
+		}
+	}
+
+	protected abstract List<Route> getRoutes(Connection connection,
+			Topology topology, IsCostFunction costFunction);
+}

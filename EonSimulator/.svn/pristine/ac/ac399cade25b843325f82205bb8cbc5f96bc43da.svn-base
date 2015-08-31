@@ -1,0 +1,45 @@
+package br.ufpe.eonsimulator.costFunctions;
+
+import java.util.List;
+
+import br.ufpe.simulatorkernel.domain.Link;
+
+public class StdDeviationLinkCostFunction implements IsLinkCostFunction {
+
+	private double getMean(List<Link> links) {
+		double mean = 0;
+		for (Link link : links) {
+			mean += (double) link.getnAllocatedSlots() / links.size();
+		}
+		return mean;
+	}
+
+	@Override
+	public void updateLinkCost(double alfa, double occupationFactor,
+			List<Link> links) {
+		double mean = getMean(links);
+		for (Link link : links) {
+			double linkFactor = Math.pow(link.getnAllocatedSlots() - mean, 2)
+					/ occupationFactor;
+			if (link.getnAllocatedSlots() > mean) {
+				link.setCost((double) alfa * link.getCost() + (1 - alfa)
+						* linkFactor);
+			} else {
+				link.setCost((double) alfa * link.getCost() - (1 - alfa)
+						* linkFactor);
+			}
+		}
+
+	}
+
+	@Override
+	public double getOccupation(List<Link> links) {
+		double stdDeviation = 0;
+		double mean = getMean(links);
+		for (Link link : links) {
+			stdDeviation += Math.pow(link.getnAllocatedSlots() - mean, 2);
+		}
+
+		return stdDeviation;
+	}
+}

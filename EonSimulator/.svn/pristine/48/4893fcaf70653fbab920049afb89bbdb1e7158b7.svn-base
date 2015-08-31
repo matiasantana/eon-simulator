@@ -1,0 +1,273 @@
+package br.ufpe.eonsimulator.domain;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import br.ufpe.simulator.utils.ConvertUtils;
+import br.ufpe.simulatorkernel.domain.IsPhysicalElement;
+import br.ufpe.simulatorkernel.domain.Link;
+import br.ufpe.simulatorkernel.domain.PhysicalElementPair;
+
+public class Topology {
+
+	private class PhysicalElementIndexPair {
+
+		private String sourceIndex;
+		private String targetIndex;
+
+		public PhysicalElementIndexPair(String sourceIndex, String targetIndex) {
+			super();
+			this.sourceIndex = sourceIndex;
+			this.targetIndex = targetIndex;
+		}
+
+		@Override
+		public int hashCode() {
+			final int prime = 31;
+			int result = 1;
+			result = prime * result + getOuterType().hashCode();
+			result = prime * result
+					+ ((sourceIndex == null) ? 0 : sourceIndex.hashCode());
+			result = prime * result
+					+ ((targetIndex == null) ? 0 : targetIndex.hashCode());
+			return result;
+		}
+
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+				return true;
+			if (obj == null)
+				return false;
+			if (getClass() != obj.getClass())
+				return false;
+			PhysicalElementIndexPair other = (PhysicalElementIndexPair) obj;
+			if (!getOuterType().equals(other.getOuterType()))
+				return false;
+			if (sourceIndex == null) {
+				if (other.sourceIndex != null)
+					return false;
+			} else if (!sourceIndex.equals(other.sourceIndex))
+				return false;
+			if (targetIndex == null) {
+				if (other.targetIndex != null)
+					return false;
+			} else if (!targetIndex.equals(other.targetIndex))
+				return false;
+			return true;
+		}
+
+		private Topology getOuterType() {
+			return Topology.this;
+		}
+
+	}
+
+	private List<Link> links;
+	private Map<Link, Link> dualLinkMap;
+	private Map<Path, Path> dualPath;
+	private List<IsPhysicalElement> physicalElements;
+	private Map<PhysicalElementIndexPair, Link> indexMap;
+	private Map<PhysicalElementPair, List<Path>> pathMap;
+
+	public Topology() {
+		super();
+		this.dualLinkMap = new HashMap<Link, Link>();
+		this.dualPath = new HashMap<Path, Path>();
+		this.links = new ArrayList<Link>();
+		this.physicalElements = new ArrayList<IsPhysicalElement>();
+		this.indexMap = new HashMap<Topology.PhysicalElementIndexPair, Link>();
+		this.pathMap = new HashMap<PhysicalElementPair, List<Path>>();
+	}
+
+	public List<Link> getLinks() {
+		return links;
+	}
+
+	public void disconnect(Route route) {
+		connect(route, false);
+	}
+
+	public void connect(Route route) {
+		connect(route, true);
+	}
+
+	public void updateAllocatedSlots(Route route, int nSlots) {
+		for (Link link : route.getLinks()) {
+			link.updateAllocatedSlots(nSlots);
+		}
+	}
+
+	private void connect(Route route, boolean doConnection) {
+		for (Link link : route.getLinks()) {
+			Link dualLink = getDualLink(link);
+			if (doConnection) {// Insert the connection
+				link.setSlotsAsOccupied(route.getInitialSlot(),
+						route.getFinalSlot());
+				if (dualLink != null)
+					dualLink.setSlotsAsOccupied(route.getInitialSlot(),
+							route.getFinalSlot());
+			} else {
+				// Remove the connection
+				link.setSlotsAsUnoccupied(route.getInitialSlot(),
+						route.getFinalSlot());
+				if (dualLink != null)
+					dualLink.setSlotsAsUnoccupied(route.getInitialSlot(),
+							route.getFinalSlot());
+			}
+		}
+	}
+
+	public Route getDualRoute(Route route) {
+		Route dualRoute = new Route();
+		dualRoute.setInitialSlot(route.getInitialSlot());
+		dualRoute.setFinalSlot(route.getFinalSlot());
+
+		Path path = route.getPath();
+		Path dualPathPath = dualPath.get(path);
+		if (dualPathPath == null) {
+			for (Link link : route.getLinks()) {
+				dualRoute.addLinkLastPosition(getDualLink(link));
+			}
+			dualPathPath = dualRoute.getPath();
+			dualPath.put(path, dualPathPath);
+		}
+
+		dualRoute.setPath(dualPathPath);
+		return dualRoute;
+	}
+
+	private Link getDualLink(Link link) {
+		Link dual = dualLinkMap.get(link);
+		if (dual == null) {
+			for (Link temp : links) {
+				if (temp.isDual(link)) {
+					dual = temp;
+					break;
+				}
+			}
+			dualLinkMap.put(link, dual);
+		}
+		return dual;
+	}
+
+	public boolean isClean() { // Checks whether all links are unoccupied
+		boolean isClean = true;
+		if (links != null) {
+			for (Link link : links) {
+				if (!link.getOcSpectrumCollection().hasOnlyUnoccupiedSlots()) {
+					isClean = false;
+					break;
+				}
+			}
+		}
+		return isClean;
+	}
+
+	public void add(Link link) {
+		this.links.add(link);
+		addIndexLink(link);
+		addPhysicalElementIfNotExists(link.getSourceNode());
+		addPhysicalElementIfNotExists(link.getTargetNode());
+	}
+
+	private void addPhysicalElementIfNotExists(IsPhysicalElement physicalElement) {
+		if (!this.physicalElements.contains(physicalElement)) {
+			this.physicalElements.add(physicalElement);
+		}
+	}
+
+	public List<IsPhysicalElement> getPhysicalNodes() {
+		return this.physicalElements;
+	}
+
+	private void addIndexLink(Link link) {
+		String sourceIndex = link.getSourceNode().getIndex();
+		String targetIndex = link.getTargetNode().getIndex();
+		PhysicalElementIndexPair elementIndexPair = new PhysicalElementIndexPair(
+				sourceIndex, targetIndex);
+		indexMap.put(elementIndexPair, link);
+	}
+
+	public Link getLink(String sourceIndex, String targetIndex) {
+		PhysicalElementIndexPair elementIndexPair = new PhysicalElementIndexPair(
+				sourceIndex, targetIndex);
+		return indexMap.get(elementIndexPair);
+	}
+
+	public int getPhysicalElementIndex(IsPhysicalElement isPhysicalElement) {
+		return physicalElements.indexOf(isPhysicalElement);
+	}
+
+	public IsPhysicalElement getPhysicalElement(int index) {
+		return physicalElements.get(index);
+	}
+
+	public boolean hasPath(PhysicalElementPair physicalElementPair) {
+		return pathMap.containsKey(physicalElementPair);
+	}
+
+	public void addPath(PhysicalElementPair elementPair, Route route) {
+		if (!pathMap.containsKey(elementPair)) {
+			pathMap.put(elementPair, new ArrayList<Path>());
+		}
+		pathMap.get(elementPair).add(route.getPath());
+	}
+
+	public List<Path> getPaths(PhysicalElementPair physicalElementPair) {
+		return pathMap.get(physicalElementPair);
+	}
+
+	public void updateLinksCost(int iteration, double alfa,
+			List<LinksCostWrapper> linksCostWrappers) {
+		double mean = getMean();
+		double stdDeviationAllocatedSlots = getStdDeviationOccupation(mean);
+		if (iteration != 0) {
+			saveLinksCost(stdDeviationAllocatedSlots, linksCostWrappers);
+			for (Link link : links) {
+				link.setCost((double) (alfa * link.getCost() + (1 - alfa)
+						* ((Math.pow((link.getnAllocatedSlots() - mean), 2) / stdDeviationAllocatedSlots))));
+			}
+		}
+	}
+
+	private void saveLinksCost(double maxAllocatedSlots,
+			List<LinksCostWrapper> linksCostWrappers) {
+		List<String> linksCost = new ArrayList<String>();
+		for (Link link : links) {
+			linksCost.add(link.getSourceNode().getIndex() + " -> "
+					+ link.getTargetNode().getIndex() + " = "
+					+ ConvertUtils.convertToLocaleString(link.getCost()));
+		}
+		linksCostWrappers
+				.add(new LinksCostWrapper(maxAllocatedSlots, linksCost));
+
+	}
+
+	private double getMean() {
+		double mean = 0;
+		for (Link link : links) {
+			mean += (double) link.getnAllocatedSlots() / links.size();
+		}
+		return mean;
+	}
+
+	private double getStdDeviationOccupation(double mean) {
+		double stdDeviation = 0;
+		for (Link link : links) {
+			stdDeviation += Math.pow((link.getnAllocatedSlots() - mean), 2);
+		}
+
+		return stdDeviation;
+	}
+
+	public void clearOccupancy() {
+		for (Link link : links) {
+			link.clearOccupancy();
+		}
+
+	}
+
+}

@@ -1,0 +1,97 @@
+package br.ufpe.eonsimulator.rsa;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import br.ufpe.eonsimulator.domain.Connection;
+import br.ufpe.eonsimulator.domain.Route;
+import br.ufpe.eonsimulator.domain.Simulation;
+import br.ufpe.eonsimulator.modulation.IsModulationFormat;
+import br.ufpe.simulator.math.MathUtils;
+import br.ufpe.simulator.messages.MessageUtils;
+import br.ufpe.simulator.utils.ConvertUtils;
+
+public abstract class RSAAlgorithm implements IsRSAAlgorithm {
+
+	protected static Logger logger = Logger.getLogger(RSAAlgorithm.class);
+	protected static final String SIMULATION_ROUTE_BESTROUTE_INFO = "simulation.route.bestRoute.info";
+	protected static final String SIMULATION_ROUTE_TRY_NEW_MODULATIONFORMAT_INFO = "simulation.route.tryingNewModulationFormat";
+
+	public RSAWrapper getRSAWrapper(List<Route> routes, Simulation simulation,
+			Connection connection) {
+		RSAWrapper routeWrapper = null;
+		boolean isValidRouteWrapper = false;
+		Iterator<IsModulationFormat> modulationFormatIterator = simulation
+				.getModulationFormats().iterator();
+		while (!isValidRouteWrapper && modulationFormatIterator.hasNext()) {
+			IsModulationFormat modulationFormat = modulationFormatIterator
+					.next();
+			connection.setNumberSlotRequired(modulationFormat
+					.createNumberOfRequiredSlots(simulation,
+							connection.getRequestedBitRate()));
+
+			connection.setRequiredOSNR(modulationFormat.createRequiredOSNR(
+					simulation, connection.getRequestedBitRate()));
+
+			List<RSAWrapper> routeWrappers = new ArrayList<RSAWrapper>();
+			for (Route route : routes) {
+				// Try to assign a wavelength to each path, using the WA
+				simulation.getIsAssignmentAlgorithm().trySpectrumAssignment(
+						connection, route);
+				RSAWrapper routeWrapper2 = createRSAWrapper(
+						routes.indexOf(route), route, simulation, connection,
+						modulationFormat, connection.getNumberSlotRequired());
+				routeWrappers.add(routeWrapper2);
+			}
+			Collections.sort(routeWrappers);
+			List<RSAWrapper> pathWrappers = new ArrayList<RSAWrapper>();
+			for (RSAWrapper rsaWrapper : routeWrappers) {
+				if (rsaWrapper.isPathValid()) {
+					pathWrappers.add(rsaWrapper);
+				}
+			}
+			simulation.getSimulationResults()
+					.incrementNumberOfPhysicalValidRoutes(pathWrappers.size());
+			for (RSAWrapper rsaWrapper : pathWrappers) {
+				routeWrapper = rsaWrapper;
+				connection.setNumberSlotRequired(routeWrapper.getnSlots());
+				connection.setRequiredOSNR(routeWrapper.getRequiredOSNR());
+				if (rsaWrapper.isValid()) {
+					if (logger.isInfoEnabled()) {
+						logger.info(MessageUtils.createMessage(
+								SIMULATION_ROUTE_BESTROUTE_INFO,
+								routeWrapper.getRoute()
+										.getSeparatedElementsIndex(),
+								routeWrapper.isPathValid(), routeWrapper
+										.isOSNRValid(), connection
+										.getNumberSlotRequired(), connection
+										.getRequestedBitRate(), ConvertUtils
+										.convertToString(MathUtils
+												.convertLinearTodB(connection
+														.getRequiredOSNR()))));
+					}
+					isValidRouteWrapper = true;
+					break;
+				}
+
+			}
+			if (!isValidRouteWrapper && logger.isInfoEnabled()) {
+				logger.info(MessageUtils.createMessage(
+						SIMULATION_ROUTE_TRY_NEW_MODULATIONFORMAT_INFO,
+						MathUtils.convertLinearTodB(connection
+								.getRequiredOSNR()), connection
+								.getNumberSlotRequired()));
+			}
+		}
+		return routeWrapper;
+	}
+
+	protected abstract RSAWrapper createRSAWrapper(int index, Route route,
+			Simulation simulation, Connection connection,
+			IsModulationFormat modulationFormat, int nSlots);
+
+}

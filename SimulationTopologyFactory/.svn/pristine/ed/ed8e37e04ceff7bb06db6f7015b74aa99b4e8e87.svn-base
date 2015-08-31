@@ -1,0 +1,89 @@
+package org.ufpe.simulationtopologyfactory.business;
+
+import java.io.PrintWriter;
+import java.util.Properties;
+
+import br.ufpe.simulator.utils.ConvertUtils;
+import br.ufpe.simulator.utils.PropertiesUtils;
+
+public class DefaulSimulationTopologyFactory implements
+		IsSimulationTopologyFactory {
+
+	private static final String TOPOLOGY_FACTORY_PROPERTIES = "src/main/resources/topologyFactory.properties";
+	private static final String PROPERTY_NUMBER_OF_NODES = "numberOfNodes";
+	private static final String PROPERTY_LASER_GAIN = "laserGain";
+	private static final String PROPERTY_OSNR_IN = "osnrIn";
+	private static final String PROPERTY_NUMBER_OF_LINKS = "numberoOfLinks";
+	private static final String PROPERTY_NODE_LOSS = "nodeLoss";
+	private static final String TYPE_SUFFIX = ".type";
+	private static final String TOPOLOGY_ELEMENT_PREFIX = "simulation.topology.element";
+	private static final String GAIN_SUFFIX = ".gain";
+	private static final String OSNR_SUFFIX = ".osnr";
+	private static final String G_SUFFIX = ".g";
+	private static final String INDEX_SUFFIX = ".index";
+	private static final String OUTPUT_FILE_NAME = "outPutFileName";
+	private static final String TOPOLOGY_NAME = "topologyName";
+	private static final String FILE_PATH = "src/main/resources/";
+
+	@Override
+	public void create() {
+		Properties properties = PropertiesUtils
+				.createPropertiesFromResource(TOPOLOGY_FACTORY_PROPERTIES);
+		Properties topology = new Properties();
+
+		int numberOfNodes = ConvertUtils.convertToInteger(properties
+				.getProperty(PROPERTY_NUMBER_OF_NODES));
+		int numberOfLinks = ConvertUtils.convertToInteger(properties
+				.getProperty(PROPERTY_NUMBER_OF_LINKS));
+		int numberOfElements = numberOfNodes + numberOfLinks * 2 + 1;
+		topology.setProperty("simulation.topology.numberOfElements",
+				ConvertUtils.convertToString(numberOfElements));
+
+		double laserGain = ConvertUtils.convertToDouble(properties
+				.getProperty(PROPERTY_LASER_GAIN));
+		double osnrIn = ConvertUtils.convertToDouble(properties
+				.getProperty(PROPERTY_OSNR_IN));
+		double nodeLoss = ConvertUtils.convertToDouble(properties
+				.getProperty(PROPERTY_NODE_LOSS));
+
+		createNodes(topology, numberOfNodes, laserGain, osnrIn, nodeLoss);
+
+		createTopolyFile(properties.getProperty(OUTPUT_FILE_NAME), topology,
+				properties.getProperty(TOPOLOGY_NAME));
+
+	}
+
+	private void createTopolyFile(String fileName, Properties topology,
+			String topologyName) {
+		PrintWriter writer;
+		try {
+			writer = new PrintWriter(FILE_PATH + fileName, "UTF-8");
+			topology.store(writer, topologyName);
+			writer.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void createNodes(Properties topology, int numberOfNodes,
+			double laserGain, double osnrIn, double nodeLoss) {
+		for (int i = 0; i < numberOfNodes; i++) {
+			if (i == 0) {
+				topology.setProperty(TOPOLOGY_ELEMENT_PREFIX + i + TYPE_SUFFIX,
+						ConvertUtils.convertToString(5));
+				topology.setProperty(TOPOLOGY_ELEMENT_PREFIX + i + GAIN_SUFFIX,
+						ConvertUtils.convertToString(laserGain));
+				topology.setProperty(TOPOLOGY_ELEMENT_PREFIX + i + OSNR_SUFFIX,
+						ConvertUtils.convertToString(osnrIn));
+			} else {
+				topology.setProperty(TOPOLOGY_ELEMENT_PREFIX + i + TYPE_SUFFIX,
+						ConvertUtils.convertToString(0));
+				topology.setProperty(TOPOLOGY_ELEMENT_PREFIX + i + G_SUFFIX,
+						ConvertUtils.convertToString(nodeLoss));
+				topology.setProperty(
+						TOPOLOGY_ELEMENT_PREFIX + i + INDEX_SUFFIX,
+						ConvertUtils.convertToString(i));
+			}
+		}
+	}
+}

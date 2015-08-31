@@ -1,0 +1,29 @@
+package br.ufpe.eonsimulator.rsa;
+
+import java.util.Properties;
+
+import br.ufpe.simulator.utils.ConvertUtils;
+
+public class RSAAlgorithmFactory {
+
+	private static final String RSA_ALGORITHM_KEY = "simulation.rsaAlgorithm";
+
+	public static IsRSAAlgorithm createRsaAlgorithm(Properties properties) {
+		IsRSAAlgorithm rsaAlgorithm = null;
+		String key = properties.getProperty(RSA_ALGORITHM_KEY);
+		switch (ConvertUtils.convertToInteger(key)) {
+		case 0:
+			rsaAlgorithm = new RSAMinHopMaxOSNRAlgorithm();
+			break;
+		case 1:
+			rsaAlgorithm = new RSAMinHopMinOSNRAlgorithm();
+			break;
+		case 2:
+			rsaAlgorithm = new RSAMinLengthAlgorithm();
+			break;
+		default:
+			break;
+		}
+		return rsaAlgorithm;
+	}
+}

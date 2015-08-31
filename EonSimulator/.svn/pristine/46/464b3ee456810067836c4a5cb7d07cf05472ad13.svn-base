@@ -1,0 +1,13 @@
+package br.ufpe.eonsimulator.routing.ordering;
+
+import java.util.List;
+
+import br.ufpe.eonsimulator.domain.Connection;
+import br.ufpe.eonsimulator.domain.Route;
+import br.ufpe.eonsimulator.domain.Simulation;
+
+public interface IsRouteOrderingAlgorithm {
+
+	RouteOrderingWrapper getBestOrderedRouteWrapper(List<Route> routes,
+			Simulation simulation, Connection connection);
+}
