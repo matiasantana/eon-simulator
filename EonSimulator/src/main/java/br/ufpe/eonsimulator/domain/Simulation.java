@@ -19,7 +19,7 @@ import br.ufpe.simulator.messages.MessageUtils;
 public class Simulation {
 
 	public enum SimulationResultsType {
-		BITRATE, ERLANG, LINKSCOST, SIMPLEERLANG
+		BITRATE, ERLANG, LINKSCOST, SIMPLEERLANG, SIMPLEERLANG_LINKCOST
 	}
 
 	private static final String SIMULATION_REMOVE_CONNECTION_INFO = "simulation.remove.connection.info";

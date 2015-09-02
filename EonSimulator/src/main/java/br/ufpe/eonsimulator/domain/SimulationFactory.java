@@ -126,6 +126,9 @@ public class SimulationFactory {
 		case 3:
 			simulationResultsType = SimulationResultsType.SIMPLEERLANG;
 			break;
+		case 4:
+			simulationResultsType = SimulationResultsType.SIMPLEERLANG_LINKCOST;
+			break;
 		default:
 			break;
 		}

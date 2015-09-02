@@ -16,6 +16,7 @@ import br.ufpe.eonsimulator.rsa.RSAWrapper;
 import br.ufpe.simulator.list.FixedArrayList;
 import br.ufpe.simulator.messages.MessageUtils;
 import br.ufpe.simulator.utils.ConvertUtils;
+import br.ufpe.simulatorkernel.domain.Link;
 
 /**
  * A simple simulation approach based on creating connection requests.
@@ -36,6 +37,7 @@ public class SimpleSimulationController extends AbstractSimulationController
 	private static final String SIMULATION_RESULTS_BITRATE_INFO = "simulation.results.bitRate.info";
 	private static final String SIMULATION_ITERATION_INFO = "simulation.iteration.info";
 	private static final String SIMULATION_LINKSCOST_INFO = "simulation.linksCost.info";
+	private static final String SIMULATION_SIMPLEERLANG_LINKCOST_INFO = "simulation.results.simpleErlang.LinkCost";
 
 	@Override
 	public void run(Simulation simulation) {
@@ -152,6 +154,17 @@ public class SimpleSimulationController extends AbstractSimulationController
 							.convertToLocaleString(simulation
 									.getSimulationResults()
 									.getBlockingProbability()));
+				} else if (SimulationResultsType.SIMPLEERLANG_LINKCOST
+						.equals(simulation.getSimulationResultsType())) {
+					System.out.println(MessageUtils.createMessage(
+							SIMULATION_SIMPLEERLANG_LINKCOST_INFO, ConvertUtils
+									.convertToLocaleString(simulation
+											.getSimulationResults()
+											.getBlockingProbability())));
+					for (Link link : simulation.getTopology().getLinks()) {
+						System.out.println(ConvertUtils
+								.convertToLocaleString(link.getCost()));
+					}
 				}
 			} while (simulation.nextSimulation());
 		}
