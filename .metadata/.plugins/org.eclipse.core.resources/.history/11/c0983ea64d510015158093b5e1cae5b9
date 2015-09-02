@@ -103,13 +103,13 @@ simulation.rsaAlgorithm.qotFilterK=1
 #Slot Width (Hz)
 simulation.parameters.slotWidth=12500000000
 
-simulation.parameters.minArrivalTime=30
-simulation.parameters.maxArrivalTime=70
+simulation.parameters.minArrivalTime=20
+simulation.parameters.maxArrivalTime=60
 
 simulation.parameters.minBitRate=60e9
 simulation.parameters.maxBitRate=60e9
 
-simulation.parameters.graphPoints=5
+simulation.parameters.graphPoints=1
 
 #WDM Central Frequency (Hz)
 simulation.physicalLayer.centralFrequency=1.931e14

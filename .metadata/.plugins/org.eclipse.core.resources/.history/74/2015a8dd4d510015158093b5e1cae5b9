@@ -162,7 +162,8 @@ public class SimpleSimulationController extends AbstractSimulationController
 											.getSimulationResults()
 											.getBlockingProbability())));
 					for (Link link : simulation.getTopology().getLinks()) {
-						System.out.println(link.getCost());
+						System.out.println(ConvertUtils
+								.convertToLocaleString(link.getCost()));
 					}
 				}
 			} while (simulation.nextSimulation());

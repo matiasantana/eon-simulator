@@ -104,7 +104,7 @@ simulation.rsaAlgorithm.qotFilterK=1
 simulation.parameters.slotWidth=12500000000
 
 simulation.parameters.minArrivalTime=30
-simulation.parameters.maxArrivalTime=70
+simulation.parameters.maxArrivalTime=760
 
 simulation.parameters.minBitRate=60e9
 simulation.parameters.maxBitRate=60e9

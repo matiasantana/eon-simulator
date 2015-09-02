@@ -6,7 +6,7 @@ simulation.simulator=0
 
 #Simulation Results Mode
 #0 BitRate,1 Erlang,2 LinksCost,3 Simple Erlang,4 Simple Erlang Link Cost
-simulation.results.mode=1
+simulation.results.mode=4
 
 #Simulation Result Set Size
 simulation.result.setSize=100
@@ -17,10 +17,10 @@ simulation.outputLinkCostFunction=1
 
 #Simulation Link Cost Function
 #0 Sum Cost Function, 1 Standard Deviation Cost Function, 2 Max Cost Function,3 File Link Cost Function
-simulation.linkCostFunction=3
+simulation.linkCostFunction=0
 
 #Simulation Parameters
-simulation.numberOfIterations=2
+simulation.numberOfIterations=100
 
 simulation.numberOfRequests=1000000
 
@@ -94,22 +94,22 @@ simulation.parameters.deathRate=1
 simulation.parameters.isConnectionExpandible=false
 
 #YEN Algorithm Maximum K
-simulation.yenAlgorithm.topK=1
+simulation.yenAlgorithm.topK=10
 
 #QoT Filter
-simulation.rsaAlgorithm.qotFilter=false
-simulation.rsaAlgorithm.qotFilterK=1
+simulation.rsaAlgorithm.qotFilter=true
+simulation.rsaAlgorithm.qotFilterK=7
 
 #Slot Width (Hz)
 simulation.parameters.slotWidth=12500000000
 
-simulation.parameters.minArrivalTime=30
-simulation.parameters.maxArrivalTime=70
+simulation.parameters.minArrivalTime=10
+simulation.parameters.maxArrivalTime=10
 
 simulation.parameters.minBitRate=60e9
 simulation.parameters.maxBitRate=60e9
 
-simulation.parameters.graphPoints=5
+simulation.parameters.graphPoints=1
 
 #WDM Central Frequency (Hz)
 simulation.physicalLayer.centralFrequency=1.931e14
