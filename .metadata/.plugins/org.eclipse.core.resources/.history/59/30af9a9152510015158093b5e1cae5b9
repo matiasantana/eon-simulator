@@ -1,0 +1,142 @@
+# EON Simulation Configuration File
+
+#Simulator Type
+#0 SimpleSimulationController, 1 OSNRValidationSimulationController, 2 EqualsNumberRoutesSimulationController, 3 OfflineSimulationController, 4 PSOSimulationController
+simulation.simulator=0
+
+#Simulation Results Mode
+#0 BitRate,1 Erlang,2 LinksCost,3 Simple Erlang,4 Simple Erlang Link Cost
+simulation.results.mode=3
+
+#Simulation Result Set Size
+simulation.result.setSize=100
+
+#Output Link Cost Function
+#0 Console, 1 File
+simulation.outputLinkCostFunction=1
+
+#Simulation Link Cost Function
+#0 Sum Cost Function, 1 Standard Deviation Cost Function, 2 Max Cost Function,3 File Link Cost Function
+simulation.linkCostFunction=0
+
+#Simulation Parameters
+simulation.numberOfIterations=100
+
+simulation.numberOfRequests=1000000
+
+simulation.alfa=0.999
+
+#Max Simulation Type, -1 (no timeout)
+simulation.maxSimulationTime=-1
+
+#Cost Function for Routing Algorithm
+#0 HopCostFunction, 1 LengthCostFunction, 2 CostFunction
+simulation.costFunction=2
+
+#Modulation Format Comparator
+#0 Default Comparator, 1 Number of Slots Comparator
+simulation.modulationFormat.comparator=0
+
+#Modulation Format
+#0 QAM4, 1 QAM8, 2 QAM16, 3 QAM32, 4 QAM64 
+simulation.modulationFormat=4,3,2
+
+# Spectrum Assignment Algorithm 
+# 0 FirstFit, 1 CapacityLoss
+simulation.assignmentAlgorithm=0
+
+# Routing Algorithm
+# 0 Dijkstra, 1 YenAlgorithm
+simulation.routingAlgorithm=1
+	
+# RSA Algorithm
+# 0 MinHop, 1 MinHopMinOSNR, 2 MinLength, 3 MinCost
+simulation.rsaAlgorithm=3
+
+#Node Pair Generator
+#0 RandomNodePairGenerator, 1 AllNodePairGenerator
+simulation.nodePairGenerator=0
+
+#Bit Rate Generator
+#0 RandomContinuosTrafficUniform,1 ConstantTrafficUniform, 2 RandomDiscreteTrafficUniform
+simulation.bitRateGenerator=2
+
+simulation.discreteTraffic.bitRates=170e9,290e9,470e9
+
+#SimpleTopology
+#simulation.constantTraffic.bitRates=420e9,700e9,110e10
+#NSFNet
+#simulation.discreteTraffic.bitRates=170e9,290e9,470e9
+#NSFNet 2
+#simulation.discreteTraffic.bitRates=280e9,460e9,730e9
+#Pacific Bell
+#simulation.discreteTraffic.bitRates=220e9,380e9,600e9
+#Finland
+#simulation.discreteTraffic.bitRates=120e9,200e9,350e9
+#USNET
+#simulation.discreteTraffic.bitRates=350e9,580e9,920e9
+
+#Arrival Time Generator
+#0 ExponentialArrivalTime, 1 ConstantArrivalTime
+simulation.arrivalTimeGenerator=0
+
+simulation.constantArrivalTime=0.034
+
+#Death Rate Generator
+#0 ExponentialDeathRate, 1 ConstantDeathRate
+simulation.deathRateGenerator=0
+
+simulation.constantDeathRate=0.035
+
+#Connection Death Rate Parameter
+simulation.parameters.deathRate=1
+
+simulation.parameters.isConnectionExpandible=false
+
+#YEN Algorithm Maximum K
+simulation.yenAlgorithm.topK=1
+
+#QoT Filter
+simulation.rsaAlgorithm.qotFilter=false
+simulation.rsaAlgorithm.qotFilterK=1
+
+#Slot Width (Hz)
+simulation.parameters.slotWidth=12500000000
+
+simulation.parameters.minArrivalTime=80
+simulation.parameters.maxArrivalTime=80
+
+simulation.parameters.minBitRate=60e9
+simulation.parameters.maxBitRate=60e9
+
+simulation.parameters.graphPoints=5
+
+#WDM Central Frequency (Hz)
+simulation.physicalLayer.centralFrequency=1.931e14
+
+simulation.rs=12.5e9
+
+#SF
+simulation.physicalLayer.sf=1
+
+#Max Gain (dB)
+simulation.physicalLayer.gMax=20
+
+# Simular efeito ASE
+simulation.aseNoiseEffect.on=true
+
+# Simular efeito NLI 
+simulation.nonLinearNoiseEffect.on=false
+
+#GNLI Properties
+simulation.gnli.beta2=207e-28
+simulation.gnli.beta3=0
+simulation.gnli.gama=13e-4
+simulation.gnli.channelsSpacing=50e9
+simulation.gnli.rollOff=0.3
+simulation.gnli.ns=20
+simulation.gnli.spectrumWidth=120e10
+simulation.gnli.nPoints=1
+simulation.gnli.slotWidth=16e9
+simulation.gnli.absoluteAccuracy=1.0e-6
+simulation.gnli.relativeAccuracy=1.0e-15

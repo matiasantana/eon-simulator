@@ -1,5 +1,6 @@
 package br.ufpe.eonsimulator.business;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -51,9 +52,16 @@ public class SimpleSimulationController extends AbstractSimulationController
 						SIMULATION_ITERATION_INFO, i));
 			}
 			simulation.clearArrivalRate();
-			simulation.getTopology().updateLinksCost(i,
-					simulation.getLinkCostFunction(), simulation.getAlfa(),
-					linksCostWrappers);
+			if (SimulationResultsType.LINKSCOST.equals(simulation
+					.getSimulationResultsType())) {
+				simulation.getTopology().updateLinksCost(i,
+						simulation.getLinkCostFunction(), simulation.getAlfa(),
+						linksCostWrappers);
+			} else {
+				simulation.getTopology().updateLinksCost(i,
+						simulation.getLinkCostFunction(), simulation.getAlfa(),
+						null);
+			}
 			do {
 				clearSimulation(simulation, logger);
 				for (int numberConnectionIndex = 0; numberConnectionIndex < simulation
@@ -156,14 +164,14 @@ public class SimpleSimulationController extends AbstractSimulationController
 									.getBlockingProbability()));
 				} else if (SimulationResultsType.SIMPLEERLANG_LINKCOST
 						.equals(simulation.getSimulationResultsType())) {
-					System.out.println(MessageUtils.createMessage(
-							SIMULATION_SIMPLEERLANG_LINKCOST_INFO, ConvertUtils
-									.convertToLocaleString(simulation
-											.getSimulationResults()
-											.getBlockingProbability())));
+					List<String> linksCost = new ArrayList<String>();
 					for (Link link : simulation.getTopology().getLinks()) {
-						System.out.println(link.getCost());
+						linksCost.add(ConvertUtils.convertToString(link
+								.getCost()));
 					}
+					linksCostWrappers.add(new LinksCostWrapper(simulation
+							.getSimulationResults().getBlockingProbability(),
+							linksCost));
 				}
 			} while (simulation.nextSimulation());
 		}
@@ -186,6 +194,18 @@ public class SimpleSimulationController extends AbstractSimulationController
 			for (LinksCostWrapper linksCostWrapper : linksCostWrappers) {
 				System.out.println(MessageUtils.createMessage(
 						SIMULATION_LINKSCOST_INFO, ConvertUtils
+								.convertToLocaleString(linksCostWrapper
+										.getMaxCost())));
+				for (String cost : linksCostWrapper.getLinksCosts()) {
+					System.out.println(cost);
+				}
+			}
+		} else if (SimulationResultsType.SIMPLEERLANG_LINKCOST
+				.equals(simulation.getSimulationResultsType())) {
+
+			for (LinksCostWrapper linksCostWrapper : linksCostWrappers) {
+				System.out.println(MessageUtils.createMessage(
+						SIMULATION_SIMPLEERLANG_LINKCOST_INFO, ConvertUtils
 								.convertToLocaleString(linksCostWrapper
 										.getMaxCost())));
 				for (String cost : linksCostWrapper.getLinksCosts()) {

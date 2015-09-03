@@ -234,13 +234,14 @@ public class Topology {
 
 	private void saveLinksCost(double maxAllocatedSlots,
 			List<LinksCostWrapper> linksCostWrappers) {
-		List<String> linksCost = new ArrayList<String>();
-		for (Link link : links) {
-			linksCost.add(ConvertUtils.convertToString(link.getCost()));
+		if (linksCostWrappers != null) {
+			List<String> linksCost = new ArrayList<String>();
+			for (Link link : links) {
+				linksCost.add(ConvertUtils.convertToString(link.getCost()));
+			}
+			linksCostWrappers.add(new LinksCostWrapper(maxAllocatedSlots,
+					linksCost));
 		}
-		linksCostWrappers
-				.add(new LinksCostWrapper(maxAllocatedSlots, linksCost));
-
 	}
 
 	public void clearOccupancy() {
