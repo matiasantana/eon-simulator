@@ -12,8 +12,9 @@ import br.ufpe.eonsimulator.modulation.ModulationFormatBitRateWrapper;
 public class RSAMinLengthAlgorithm extends RSAAlgorithm {
 
 	public RSAMinLengthAlgorithm(
-			Comparator<ModulationFormatBitRateWrapper> modulationFormatComparator, boolean qotFilter, int qotFilterK) {
-		super(modulationFormatComparator, qotFilter, qotFilterK);
+			Comparator<ModulationFormatBitRateWrapper> modulationFormatComparator,
+			int kFilter) {
+		super(modulationFormatComparator, kFilter);
 	}
 
 	private class RSAMinLengthWrapper extends RSAWrapper {

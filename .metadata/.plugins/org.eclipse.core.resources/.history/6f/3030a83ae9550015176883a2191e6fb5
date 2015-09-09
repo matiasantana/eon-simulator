@@ -1,0 +1,1641 @@
+Criando elementos para uma nova simulacao ...
+Iniciando Nova Simulacao
+Removendo conexoes por timeout ...
+Tentativa de conexao entre Elemento (1) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,00430277638451), OSNR link dual (30,00430277638451), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (1 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (29,81079689978881), OSNR link dual (29,81079689978881), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (1 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (29,447875677292217), OSNR link dual (29,447875677292217), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (1 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 4 4 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,62629584022048), OSNR link dual (27,62629584022048), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (1 4 4 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 4 4 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 3 3 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,98878095365881), OSNR link dual (26,98878095365881), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (1 3 3 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 3 3 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 4 4 5 5 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,262471475145293), OSNR link dual (26,262471475145293), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (1 4 4 5 5 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 4 4 5 5 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 4 4 5 5 7 7 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,292488428704427), OSNR link dual (25,292488428704427), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (1 4 4 5 5 7 7 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 4 4 5 5 7 7 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 4 4 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,230075313386035), OSNR link dual (24,230075313386035), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (1 4 4 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 4 4 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 4 4 5 5 7 7 8 8 11 11 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,552739841606023), OSNR link dual (23,552739841606023), Custo Rota (6,0), Custo Rota Dual (6,0)
+Rota (1 4 4 5 5 7 7 8 8 11 11 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 4 4 5 5 7 7 8 8 11 11 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 4 4 5 5 7 7 8 8 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,556164444797673), OSNR link dual (24,556164444797673), Custo Rota (5,0), Custo Rota Dual (5,0)
+Rota (1 4 4 5 5 7 7 8 8 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 4 4 5 5 7 7 8 8 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 3 3 6 6 13 13 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,291947131356274), OSNR link dual (23,291947131356274), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (1 3 3 6 6 13 13 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 3 3 6 6 13 13 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 3 3 6 6 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,075775272524), OSNR link dual (24,075775272524), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (1 3 3 6 6 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 3 3 6 6 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (1) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (1 3 3 6 6 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,612974992250855), OSNR link dual (24,612974992250855), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (1 3 3 6 6 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (1 3 3 6 6 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,00430277638451), OSNR link dual (30,00430277638451), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (2 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,373765399396813), OSNR link dual (28,373765399396813), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (2 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 1 1 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,403229709400403), OSNR link dual (27,403229709400403), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (2 1 1 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 1 1 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 1 1 4 4 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,17966291382068), OSNR link dual (26,17966291382068), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (2 1 1 4 4 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 1 1 4 4 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 3 3 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,17966291382068), OSNR link dual (26,17966291382068), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (2 3 3 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 3 3 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 8 8 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,359877432308267), OSNR link dual (25,359877432308267), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (2 8 8 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 8 8 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,346889720603638), OSNR link dual (26,346889720603638), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (2 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 1 1 4 4 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,508172287565667), OSNR link dual (23,508172287565667), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (2 1 1 4 4 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 1 1 4 4 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 8 8 11 11 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,230075313386035), OSNR link dual (24,230075313386035), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (2 8 8 11 11 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 8 8 11 11 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 8 8 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,428328607011494), OSNR link dual (25,428328607011494), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (2 8 8 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 8 8 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 8 8 11 11 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,87821609303568), OSNR link dual (23,87821609303568), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (2 8 8 11 11 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 8 8 11 11 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 3 3 6 6 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,64327093597724), OSNR link dual (23,64327093597724), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (2 3 3 6 6 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 3 3 6 6 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (2) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (2 3 3 6 6 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,1266019218229), OSNR link dual (24,1266019218229), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (2 3 3 6 6 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (2 3 3 6 6 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (29,81079689978881), OSNR link dual (29,81079689978881), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (3 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,373765399396813), OSNR link dual (28,373765399396813), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (3 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 1 1 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,295851026259207), OSNR link dual (27,295851026259207), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (3 1 1 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 1 1 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 6 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,088744530188396), OSNR link dual (27,088744530188396), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (3 6 6 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 6 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,954710559716332), OSNR link dual (28,954710559716332), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (3 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 6 5 5 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,86336908865189), OSNR link dual (25,86336908865189), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (3 6 6 5 5 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 6 5 5 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 6 5 5 7 7 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,97038936613833), OSNR link dual (24,97038936613833), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (3 6 6 5 5 7 7 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 6 5 5 7 7 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 1 1 4 4 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,46405744653968), OSNR link dual (23,46405744653968), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (3 1 1 4 4 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 1 1 4 4 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 6 13 13 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,420386213704226), OSNR link dual (23,420386213704226), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (3 6 6 13 13 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 6 13 13 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 6 5 5 7 7 8 8 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,282751432872217), OSNR link dual (24,282751432872217), Custo Rota (5,0), Custo Rota Dual (5,0)
+Rota (3 6 6 5 5 7 7 8 8 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 6 5 5 7 7 8 8 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 6 13 13 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,025536586687814), OSNR link dual (24,025536586687814), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (3 6 6 13 13 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 6 13 13 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 6 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,97038936613833), OSNR link dual (24,97038936613833), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (3 6 6 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 6 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (3) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (3 6 6 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,640403776806426), OSNR link dual (25,640403776806426), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (3 6 6 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (3 6 6 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (29,447875677292217), OSNR link dual (29,447875677292217), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (4 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 1 1 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,403229709400403), OSNR link dual (27,403229709400403), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (4 1 1 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 1 1 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 1 1 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,295851026259207), OSNR link dual (27,295851026259207), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (4 1 1 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 1 1 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,419274755046438), OSNR link dual (30,419274755046438), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (4 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 5 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,98396944102327), OSNR link dual (27,98396944102327), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (4 5 5 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 5 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 5 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,11005373940786), OSNR link dual (28,11005373940786), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (4 5 5 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 5 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 5 7 7 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,70199604163922), OSNR link dual (26,70199604163922), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (4 5 5 7 7 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 5 7 7 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,292488428704427), OSNR link dual (25,292488428704427), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (4 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 5 7 7 8 8 11 11 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,444725326164765), OSNR link dual (24,444725326164765), Custo Rota (5,0), Custo Rota Dual (5,0)
+Rota (4 5 5 7 7 8 8 11 11 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 5 7 7 8 8 11 11 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 5 7 7 8 8 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,713461009472475), OSNR link dual (25,713461009472475), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (4 5 5 7 7 8 8 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 5 7 7 8 8 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 5 7 7 8 8 11 11 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,075775272524), OSNR link dual (24,075775272524), Custo Rota (5,0), Custo Rota Dual (5,0)
+Rota (4 5 5 7 7 8 8 11 11 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 5 7 7 8 8 11 11 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 5 6 6 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,556164444797673), OSNR link dual (24,556164444797673), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (4 5 5 6 6 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 5 6 6 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (4) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (4 5 5 6 6 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,160768557270444), OSNR link dual (25,160768557270444), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (4 5 5 6 6 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (4 5 5 6 6 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 4 4 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,62629584022048), OSNR link dual (27,62629584022048), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (5 4 4 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 4 4 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 4 4 1 1 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,17966291382068), OSNR link dual (26,17966291382068), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (5 4 4 1 1 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 4 4 1 1 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 6 6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,088744530188396), OSNR link dual (27,088744530188396), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (5 6 6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 6 6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,419274755046438), OSNR link dual (30,419274755046438), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,00430277638451), OSNR link dual (30,00430277638451), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (5 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,20683428546189), OSNR link dual (30,20683428546189), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (5 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 7 7 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,11005373940786), OSNR link dual (28,11005373940786), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (5 7 7 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 7 7 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 4 4 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,50008745702555), OSNR link dual (24,50008745702555), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (5 4 4 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 4 4 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 7 7 8 8 11 11 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,22612913540034), OSNR link dual (25,22612913540034), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (5 7 7 8 8 11 11 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 7 7 8 8 11 11 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 7 7 8 8 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,79550250641414), OSNR link dual (26,79550250641414), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (5 7 7 8 8 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 7 7 8 8 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 7 7 8 8 11 11 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,788006418679274), OSNR link dual (24,788006418679274), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (5 7 7 8 8 11 11 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 7 7 8 8 11 11 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 6 6 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,359877432308267), OSNR link dual (25,359877432308267), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (5 6 6 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 6 6 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (5) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (5 6 6 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,098403796691116), OSNR link dual (26,098403796691116), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (5 6 6 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (5 6 6 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 3 3 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,98878095365881), OSNR link dual (26,98878095365881), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (6 3 3 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 3 3 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 3 3 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,17966291382068), OSNR link dual (26,17966291382068), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (6 3 3 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 3 3 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,954710559716332), OSNR link dual (28,954710559716332), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 5 5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,98396944102327), OSNR link dual (27,98396944102327), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (6 5 5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 5 5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,00430277638451), OSNR link dual (30,00430277638451), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (6 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 5 5 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,861442583053908), OSNR link dual (27,861442583053908), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (6 5 5 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 5 5 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 5 5 7 7 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,52081442761478), OSNR link dual (26,52081442761478), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (6 5 5 7 7 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 5 5 7 7 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 5 5 4 4 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,735729450665367), OSNR link dual (23,735729450665367), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (6 5 5 4 4 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 5 5 4 4 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 13 13 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,444725326164765), OSNR link dual (24,444725326164765), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (6 13 13 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 13 13 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 5 5 7 7 8 8 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,568555212279055), OSNR link dual (25,568555212279055), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (6 5 5 7 7 8 8 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 5 5 7 7 8 8 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 13 13 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,22612913540034), OSNR link dual (25,22612913540034), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (6 13 13 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 13 13 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,52081442761478), OSNR link dual (26,52081442761478), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (6 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (6) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (6 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,513330767492675), OSNR link dual (27,513330767492675), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (6 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (6 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 5 5 4 4 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,262471475145293), OSNR link dual (26,262471475145293), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (7 5 5 4 4 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 5 5 4 4 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 8 8 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,359877432308267), OSNR link dual (25,359877432308267), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (7 8 8 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 8 8 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 5 5 6 6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,86336908865189), OSNR link dual (25,86336908865189), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (7 5 5 6 6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 5 5 6 6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 5 5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,11005373940786), OSNR link dual (28,11005373940786), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (7 5 5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 5 5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,20683428546189), OSNR link dual (30,20683428546189), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (7 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 5 5 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,861442583053908), OSNR link dual (27,861442583053908), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (7 5 5 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 5 5 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,419274755046438), OSNR link dual (30,419274755046438), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (7 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 8 8 11 11 10 10 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,160768557270444), OSNR link dual (25,160768557270444), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (7 8 8 11 11 10 10 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 8 8 11 11 10 10 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 8 8 11 11 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,262471475145293), OSNR link dual (26,262471475145293), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (7 8 8 11 11 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 8 8 11 11 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 8 8 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,373765399396813), OSNR link dual (28,373765399396813), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (7 8 8 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 8 8 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 8 8 11 11 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,713461009472475), OSNR link dual (25,713461009472475), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (7 8 8 11 11 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 8 8 11 11 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 8 8 11 11 12 12 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,612974992250855), OSNR link dual (24,612974992250855), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (7 8 8 11 11 12 12 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 8 8 11 11 12 12 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (7) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (7 5 5 6 6 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,09637707793225), OSNR link dual (25,09637707793225), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (7 5 5 6 6 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (7 5 5 6 6 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 7 7 5 5 4 4 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,292488428704427), OSNR link dual (25,292488428704427), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (8 7 7 5 5 4 4 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 7 7 5 5 4 4 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,346889720603638), OSNR link dual (26,346889720603638), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (8 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 7 7 5 5 6 6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,97038936613833), OSNR link dual (24,97038936613833), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (8 7 7 5 5 6 6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 7 7 5 5 6 6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 7 7 5 5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,70199604163922), OSNR link dual (26,70199604163922), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (8 7 7 5 5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 7 7 5 5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 7 7 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,11005373940786), OSNR link dual (28,11005373940786), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (8 7 7 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 7 7 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 7 7 5 5 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,52081442761478), OSNR link dual (26,52081442761478), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (8 7 7 5 5 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 7 7 5 5 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,419274755046438), OSNR link dual (30,419274755046438), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (8 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 11 11 10 10 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,098403796691116), OSNR link dual (26,098403796691116), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (8 11 11 10 10 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 11 11 10 10 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 11 11 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,513330767492675), OSNR link dual (27,513330767492675), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (8 11 11 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 11 11 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,642643890706044), OSNR link dual (30,642643890706044), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (8 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 11 11 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,79550250641414), OSNR link dual (26,79550250641414), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (8 11 11 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 11 11 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 11 11 12 12 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,428328607011494), OSNR link dual (25,428328607011494), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (8 11 11 12 12 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 11 11 12 12 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (8) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (8 11 11 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,86336908865189), OSNR link dual (25,86336908865189), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (8 11 11 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (8 11 11 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 4 4 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,230075313386035), OSNR link dual (24,230075313386035), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (9 4 4 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 4 4 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 10 10 11 11 8 8 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,508172287565667), OSNR link dual (23,508172287565667), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (9 10 10 11 11 8 8 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 10 10 11 11 8 8 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 4 4 1 1 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,46405744653968), OSNR link dual (23,46405744653968), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (9 4 4 1 1 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 4 4 1 1 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,292488428704427), OSNR link dual (25,292488428704427), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (9 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 4 4 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,50008745702555), OSNR link dual (24,50008745702555), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (9 4 4 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 4 4 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 4 4 5 5 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,735729450665367), OSNR link dual (23,735729450665367), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (9 4 4 5 5 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 4 4 5 5 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 10 10 11 11 8 8 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,160768557270444), OSNR link dual (25,160768557270444), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (9 10 10 11 11 8 8 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 10 10 11 11 8 8 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 10 10 11 11 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,098403796691116), OSNR link dual (26,098403796691116), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (9 10 10 11 11 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 10 10 11 11 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,00430277638451), OSNR link dual (30,00430277638451), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (9 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 10 10 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,1910633325098), OSNR link dual (27,1910633325098), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (9 10 10 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 10 10 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,98396944102327), OSNR link dual (27,98396944102327), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (9 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 10 10 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,262471475145293), OSNR link dual (26,262471475145293), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (9 10 10 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 10 10 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (9) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (9 10 10 11 11 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,390060055717626), OSNR link dual (24,390060055717626), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (9 10 10 11 11 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (9 10 10 11 11 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 11 11 8 8 7 7 5 5 4 4 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,552739841606023), OSNR link dual (23,552739841606023), Custo Rota (6,0), Custo Rota Dual (6,0)
+Rota (10 11 11 8 8 7 7 5 5 4 4 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 11 11 8 8 7 7 5 5 4 4 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 11 11 8 8 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,230075313386035), OSNR link dual (24,230075313386035), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (10 11 11 8 8 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 11 11 8 8 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 13 13 6 6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,420386213704226), OSNR link dual (23,420386213704226), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (10 13 13 6 6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 13 13 6 6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 11 11 8 8 7 7 5 5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,444725326164765), OSNR link dual (24,444725326164765), Custo Rota (5,0), Custo Rota Dual (5,0)
+Rota (10 11 11 8 8 7 7 5 5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 11 11 8 8 7 7 5 5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 11 11 8 8 7 7 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,22612913540034), OSNR link dual (25,22612913540034), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (10 11 11 8 8 7 7 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 11 11 8 8 7 7 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 13 13 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,444725326164765), OSNR link dual (24,444725326164765), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (10 13 13 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 13 13 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 11 11 8 8 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,262471475145293), OSNR link dual (26,262471475145293), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (10 11 11 8 8 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 11 11 8 8 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 11 11 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,513330767492675), OSNR link dual (27,513330767492675), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (10 11 11 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 11 11 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,00430277638451), OSNR link dual (30,00430277638451), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (10 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (29,112957186384403), OSNR link dual (29,112957186384403), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (10 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 9 9 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,43298147294672), OSNR link dual (26,43298147294672), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (10 9 9 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 9 9 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,742277917018676), OSNR link dual (27,742277917018676), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (10 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (10) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (10 11 11 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,292488428704427), OSNR link dual (25,292488428704427), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (10 11 11 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (10 11 11 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 8 8 7 7 5 5 4 4 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,556164444797673), OSNR link dual (24,556164444797673), Custo Rota (5,0), Custo Rota Dual (5,0)
+Rota (11 8 8 7 7 5 5 4 4 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 8 8 7 7 5 5 4 4 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 8 8 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,428328607011494), OSNR link dual (25,428328607011494), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (11 8 8 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 8 8 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 8 8 7 7 5 5 6 6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,282751432872217), OSNR link dual (24,282751432872217), Custo Rota (5,0), Custo Rota Dual (5,0)
+Rota (11 8 8 7 7 5 5 6 6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 8 8 7 7 5 5 6 6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 8 8 7 7 5 5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,713461009472475), OSNR link dual (25,713461009472475), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (11 8 8 7 7 5 5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 8 8 7 7 5 5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 8 8 7 7 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,79550250641414), OSNR link dual (26,79550250641414), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (11 8 8 7 7 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 8 8 7 7 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 8 8 7 7 5 5 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,568555212279055), OSNR link dual (25,568555212279055), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (11 8 8 7 7 5 5 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 8 8 7 7 5 5 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 8 8 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,373765399396813), OSNR link dual (28,373765399396813), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (11 8 8 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 8 8 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (30,642643890706044), OSNR link dual (30,642643890706044), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (11 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 10 10 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,1910633325098), OSNR link dual (27,1910633325098), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (11 10 10 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 10 10 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (29,112957186384403), OSNR link dual (29,112957186384403), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (11 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,11005373940786), OSNR link dual (28,11005373940786), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (11 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 12 12 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,346889720603638), OSNR link dual (26,346889720603638), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (11 12 12 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 12 12 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (11) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (11 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,891066610582037), OSNR link dual (26,891066610582037), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (11 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (11 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 13 13 6 6 3 3 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,291947131356274), OSNR link dual (23,291947131356274), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (12 13 13 6 6 3 3 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 13 13 6 6 3 3 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 11 11 8 8 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,87821609303568), OSNR link dual (23,87821609303568), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (12 11 11 8 8 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 11 11 8 8 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 13 13 6 6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,025536586687814), OSNR link dual (24,025536586687814), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (12 13 13 6 6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 13 13 6 6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 11 11 8 8 7 7 5 5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,075775272524), OSNR link dual (24,075775272524), Custo Rota (5,0), Custo Rota Dual (5,0)
+Rota (12 11 11 8 8 7 7 5 5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 11 11 8 8 7 7 5 5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 11 11 8 8 7 7 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,788006418679274), OSNR link dual (24,788006418679274), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (12 11 11 8 8 7 7 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 11 11 8 8 7 7 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 13 13 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,22612913540034), OSNR link dual (25,22612913540034), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (12 13 13 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 13 13 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 11 11 8 8 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,713461009472475), OSNR link dual (25,713461009472475), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (12 11 11 8 8 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 11 11 8 8 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 11 11 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,79550250641414), OSNR link dual (26,79550250641414), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (12 11 11 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 11 11 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,98396944102327), OSNR link dual (27,98396944102327), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (12 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 9 9 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,43298147294672), OSNR link dual (26,43298147294672), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (12 9 9 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 9 9 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (28,11005373940786), OSNR link dual (28,11005373940786), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (12 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (29,62554642034145), OSNR link dual (29,62554642034145), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (12 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (12) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (12 11 11 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,847953722927123), OSNR link dual (24,847953722927123), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (12 11 11 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (12 11 11 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 6 6 3 3 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,075775272524), OSNR link dual (24,075775272524), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (13 6 6 3 3 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 6 6 3 3 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 6 6 3 3 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (23,64327093597724), OSNR link dual (23,64327093597724), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (13 6 6 3 3 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 6 6 3 3 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 6 6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,97038936613833), OSNR link dual (24,97038936613833), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (13 6 6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 6 6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 6 6 5 5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,556164444797673), OSNR link dual (24,556164444797673), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (13 6 6 5 5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 6 6 5 5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 6 6 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,359877432308267), OSNR link dual (25,359877432308267), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (13 6 6 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 6 6 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,52081442761478), OSNR link dual (26,52081442761478), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (13 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 12 12 11 11 8 8 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,612974992250855), OSNR link dual (24,612974992250855), Custo Rota (4,0), Custo Rota Dual (4,0)
+Rota (13 12 12 11 11 8 8 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 12 12 11 11 8 8 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 12 12 11 11 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,428328607011494), OSNR link dual (25,428328607011494), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (13 12 12 11 11 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 12 12 11 11 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 12 12 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,262471475145293), OSNR link dual (26,262471475145293), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (13 12 12 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 12 12 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,742277917018676), OSNR link dual (27,742277917018676), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (13 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 12 12 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,346889720603638), OSNR link dual (26,346889720603638), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (13 12 12 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 12 12 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (29,62554642034145), OSNR link dual (29,62554642034145), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (13 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (13) e Elemento (14).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (13 6 6 14 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,33607432033888), OSNR link dual (24,33607432033888), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (13 6 6 14 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (13 6 6 14 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (1).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 6 6 3 3 1 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,612974992250855), OSNR link dual (24,612974992250855), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (14 6 6 3 3 1 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 6 6 3 3 1 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (2).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 6 6 3 3 2 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,1266019218229), OSNR link dual (24,1266019218229), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (14 6 6 3 3 2 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 6 6 3 3 2 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (3).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 6 6 3 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,640403776806426), OSNR link dual (25,640403776806426), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (14 6 6 3 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 6 6 3 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (4).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 6 6 5 5 4 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,160768557270444), OSNR link dual (25,160768557270444), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (14 6 6 5 5 4 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 6 6 5 5 4 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (5).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 6 6 5 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,098403796691116), OSNR link dual (26,098403796691116), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (14 6 6 5 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 6 6 5 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (6).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 6 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (27,513330767492675), OSNR link dual (27,513330767492675), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (14 6 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 6 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (7).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 6 6 5 5 7 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,09637707793225), OSNR link dual (25,09637707793225), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (14 6 6 5 5 7 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 6 6 5 5 7 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (8).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 11 11 8 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,86336908865189), OSNR link dual (25,86336908865189), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (14 11 11 8 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 11 11 8 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (9).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 11 11 10 10 9 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,390060055717626), OSNR link dual (24,390060055717626), Custo Rota (3,0), Custo Rota Dual (3,0)
+Rota (14 11 11 10 10 9 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 11 11 10 10 9 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (10).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 11 11 10 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (25,292488428704427), OSNR link dual (25,292488428704427), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (14 11 11 10 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 11 11 10 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (11).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 11 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (26,891066610582037), OSNR link dual (26,891066610582037), Custo Rota (1,0), Custo Rota Dual (1,0)
+Rota (14 11 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 11 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (12).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 11 11 12 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,847953722927123), OSNR link dual (24,847953722927123), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (14 11 11 12 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 11 11 12 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)
+Tentativa de conexao entre Elemento (14) e Elemento (13).
+Foram encontradas as seguintes rotas para a conexao:
+Rota -> (14 6 6 13 )
+Numero de Slots Requeridos: (3)
+OSNR para (170.000.000.000) bps : (23,095) dB
+Estados dos slots : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Calculo de OSNR. OSNRreq (23,09508912706236), OSNR link atual (24,33607432033888), OSNR link dual (24,33607432033888), Custo Rota (2,0), Custo Rota Dual (2,0)
+Rota (14 6 6 13 ): Slots livres (true), OSNR atendida (true)
+Melhor rota encontrada (14 6 6 13 ). Slots livres (true), OSNR atendida (true). Numero de Slots Requeridos (3). Bit Rate Requerida (170.000.000.000) OSNR Requerida (23,09508912706236)

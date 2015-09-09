@@ -13,8 +13,8 @@ public class RSAMinHopMaxOSNRAlgorithm extends RSAAlgorithm {
 
 	public RSAMinHopMaxOSNRAlgorithm(
 			Comparator<ModulationFormatBitRateWrapper> modulationFormatComparator,
-			boolean qotFilter, int qotFilterK) {
-		super(modulationFormatComparator, qotFilter, qotFilterK);
+			int kFilter) {
+		super(modulationFormatComparator, kFilter);
 	}
 
 	private class RSAMinHopMaxOSNRWrapper extends RSAWrapper {
