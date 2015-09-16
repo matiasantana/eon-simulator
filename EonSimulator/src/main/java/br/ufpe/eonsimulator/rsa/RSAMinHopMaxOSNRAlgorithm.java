@@ -13,13 +13,13 @@ public class RSAMinHopMaxOSNRAlgorithm extends RSAAlgorithm {
 
 	public RSAMinHopMaxOSNRAlgorithm(
 			Comparator<ModulationFormatBitRateWrapper> modulationFormatComparator,
-			int kFilter) {
-		super(modulationFormatComparator, kFilter);
+			int kFilter, boolean qotFilter) {
+		super(modulationFormatComparator, kFilter, qotFilter);
 	}
 
 	private class RSAMinHopMaxOSNRWrapper extends RSAWrapper {
 
-		public RSAMinHopMaxOSNRWrapper(int index, boolean isPathValid,
+		public RSAMinHopMaxOSNRWrapper(String index, boolean isPathValid,
 				boolean isOSNRValid, Route route, double requiredOSNR,
 				int nSlots) {
 			super(index, isPathValid, isOSNRValid, route, requiredOSNR, nSlots);
@@ -47,7 +47,7 @@ public class RSAMinHopMaxOSNRAlgorithm extends RSAAlgorithm {
 	}
 
 	@Override
-	protected RSAWrapper createRSAWrapper(int index, Route route,
+	protected RSAWrapper createRSAWrapper(String index, Route route,
 			Simulation simulation, Connection connection,
 			IsModulationFormat modulationFormat, int nSlots) {
 		return new RSAMinHopMaxOSNRWrapper(index, route.isPathValid(),

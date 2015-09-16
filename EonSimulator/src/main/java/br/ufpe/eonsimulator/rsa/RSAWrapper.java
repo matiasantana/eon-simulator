@@ -10,14 +10,14 @@ public abstract class RSAWrapper implements Comparable<RSAWrapper> {
 	private static Logger logger = Logger.getLogger(RSAWrapper.class);
 	private static final String SIMULATION_ROUTE_INFO = "simulation.route.info";
 
-	protected int index;
+	protected String index;
 	protected boolean isPathValid;
 	protected boolean isOSNRValid;
 	private Route route;
 	private double requiredOSNR;
 	private int nSlots;
 
-	public RSAWrapper(int index, boolean isPathValid, boolean isOSNRValid,
+	public RSAWrapper(String index, boolean isPathValid, boolean isOSNRValid,
 			Route route, double requiredOSNR, int nSlots) {
 		super();
 		this.index = index;
@@ -47,7 +47,7 @@ public abstract class RSAWrapper implements Comparable<RSAWrapper> {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + index;
+		result = prime * result + ((index == null) ? 0 : index.hashCode());
 		return result;
 	}
 
@@ -60,7 +60,10 @@ public abstract class RSAWrapper implements Comparable<RSAWrapper> {
 		if (getClass() != obj.getClass())
 			return false;
 		RSAWrapper other = (RSAWrapper) obj;
-		if (index != other.index)
+		if (index == null) {
+			if (other.index != null)
+				return false;
+		} else if (!index.equals(other.index))
 			return false;
 		return true;
 	}

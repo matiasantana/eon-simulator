@@ -21,4 +21,9 @@ public class ConstantTraffic implements IsBitRateGenerator {
 		return bitRate;
 	}
 
+	@Override
+	public List<Double> getBitRates() {
+		return bitRates;
+	}
+
 }

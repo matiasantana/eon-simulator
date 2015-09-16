@@ -15,8 +15,8 @@ import br.ufpe.eonsimulator.modulation.IsModulationFormat;
 import br.ufpe.eonsimulator.modulation.ModulationFormatBitRateWrapper;
 import br.ufpe.simulator.math.MathUtils;
 import br.ufpe.simulator.messages.MessageUtils;
-import br.ufpe.simulator.utils.CollectionsUtils;
 import br.ufpe.simulator.utils.ConvertUtils;
+import br.ufpe.simulator.utils.StringUtil;
 
 public abstract class RSAAlgorithm implements IsRSAAlgorithm {
 
@@ -26,13 +26,15 @@ public abstract class RSAAlgorithm implements IsRSAAlgorithm {
 
 	private Comparator<ModulationFormatBitRateWrapper> modulationFormatComparator;
 	private int kFilter;
+	private boolean qotFilter;
 
 	public RSAAlgorithm(
 			Comparator<ModulationFormatBitRateWrapper> modulationFormatComparator,
-			int kFilter) {
+			int kFilter, boolean qotFilter) {
 		super();
 		this.modulationFormatComparator = modulationFormatComparator;
 		this.kFilter = kFilter;
+		this.qotFilter = qotFilter;
 	}
 
 	public RSAWrapper getRSAWrapper(List<Route> routes, Simulation simulation,
@@ -54,21 +56,8 @@ public abstract class RSAAlgorithm implements IsRSAAlgorithm {
 			connection.setRequiredOSNR(modulationFormat.createRequiredOSNR(
 					simulation, connection.getRequestedBitRate()));
 
-			List<RSAWrapper> routeWrappers = new ArrayList<RSAWrapper>();
-			for (Route route : routes) {
-				// Try to assign a wavelength to each path, using the WA
-				simulation.getIsAssignmentAlgorithm().trySpectrumAssignment(
-						connection, route);
-				RSAWrapper routeWrapper2 = createRSAWrapperAndDoLog(
-						routes.indexOf(route), route, simulation, connection,
-						modulationFormat, connection.getNumberSlotRequired());
-				routeWrappers.add(routeWrapper2);
-			}
-			Collections.sort(routeWrappers);
-			if (routeWrappers.size() > kFilter) {
-				routeWrappers = CollectionsUtils
-						.subList(routeWrappers, kFilter);
-			}
+			List<RSAWrapper> routeWrappers = createRsaWrappers(routes,
+					simulation, connection, modulationFormat, true);
 			List<RSAWrapper> pathWrappers = new ArrayList<RSAWrapper>();
 			for (RSAWrapper rsaWrapper : routeWrappers) {
 				if (rsaWrapper.isPathValid()) {
@@ -111,7 +100,35 @@ public abstract class RSAAlgorithm implements IsRSAAlgorithm {
 		return routeWrapper;
 	}
 
-	private Iterator<ModulationFormatBitRateWrapper> createModulationFormatIterator(
+	public List<RSAWrapper> createRsaWrappers(List<Route> routes,
+			Simulation simulation, Connection connection,
+			IsModulationFormat modulationFormat, boolean doSpectrumAssignment) {
+		List<RSAWrapper> routeWrappers = new ArrayList<RSAWrapper>();
+		for (Route route : routes) {
+			if (doSpectrumAssignment) {
+				// Try to assign a wavelength to each path, using the WA
+				simulation.getIsAssignmentAlgorithm().trySpectrumAssignment(
+						connection, route);
+			}
+			RSAWrapper routeWrapper2 = createRSAWrapperAndDoLog(
+					StringUtil.generateString(), route, simulation, connection,
+					modulationFormat, connection.getNumberSlotRequired());
+			if (qotFilter) {
+				if (routeWrapper2.isOSNRValid) {
+					routeWrappers.add(routeWrapper2);
+				}
+			} else {
+				routeWrappers.add(routeWrapper2);
+			}
+		}
+		Collections.sort(routeWrappers);
+		if (routeWrappers.size() > kFilter) {
+			routeWrappers = routeWrappers.subList(0, kFilter);
+		}
+		return routeWrappers;
+	}
+
+	public Iterator<ModulationFormatBitRateWrapper> createModulationFormatIterator(
 			Simulation simulation, Connection connection) {
 		List<ModulationFormatBitRateWrapper> isModulationFormats = createModulationFormatBitRateWrappers(
 				simulation.getModulationFormats(), connection, simulation
@@ -136,40 +153,11 @@ public abstract class RSAAlgorithm implements IsRSAAlgorithm {
 		return formatBitRateWrappers;
 	}
 
-	public List<RSAWrapper> getQoTRSAWrapper(List<Route> routes,
-			Simulation simulation, Connection connection) {
-		List<RSAWrapper> routeWrappers = new ArrayList<RSAWrapper>();
-		Iterator<IsModulationFormat> modulationFormatIterator = simulation
-				.getModulationFormats().iterator();
-		while (modulationFormatIterator.hasNext()) {
-			IsModulationFormat modulationFormat = modulationFormatIterator
-					.next();
-			connection.setNumberSlotRequired(modulationFormat
-					.createNumberOfRequiredSlots(
-							simulation.getSimulationParameters()
-									.getConnectionSlotWidth(), connection
-									.getRequestedBitRate()));
-
-			connection.setRequiredOSNR(modulationFormat.createRequiredOSNR(
-					simulation, connection.getRequestedBitRate()));
-
-			for (Route route : routes) {
-				RSAWrapper routeWrapper2 = createRSAWrapperAndDoLog(
-						routes.indexOf(route), route, simulation, connection,
-						modulationFormat, connection.getNumberSlotRequired());
-				if (routeWrapper2.isOSNRValid) {
-					routeWrappers.add(routeWrapper2);
-				}
-			}
-		}
-		return routeWrappers;
-	}
-
-	protected abstract RSAWrapper createRSAWrapper(int index, Route route,
+	protected abstract RSAWrapper createRSAWrapper(String index, Route route,
 			Simulation simulation, Connection connection,
 			IsModulationFormat modulationFormat, int nSlots);
 
-	protected RSAWrapper createRSAWrapperAndDoLog(int index, Route route,
+	protected RSAWrapper createRSAWrapperAndDoLog(String index, Route route,
 			Simulation simulation, Connection connection,
 			IsModulationFormat modulationFormat, int nSlots) {
 		if (logger.isInfoEnabled()) {

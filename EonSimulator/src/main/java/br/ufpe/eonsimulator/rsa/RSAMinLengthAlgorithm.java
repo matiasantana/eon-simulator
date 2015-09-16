@@ -13,13 +13,13 @@ public class RSAMinLengthAlgorithm extends RSAAlgorithm {
 
 	public RSAMinLengthAlgorithm(
 			Comparator<ModulationFormatBitRateWrapper> modulationFormatComparator,
-			int kFilter) {
-		super(modulationFormatComparator, kFilter);
+			int kFilter, boolean qotFilter) {
+		super(modulationFormatComparator, kFilter, qotFilter);
 	}
 
 	private class RSAMinLengthWrapper extends RSAWrapper {
 
-		public RSAMinLengthWrapper(int index, boolean isPathValid,
+		public RSAMinLengthWrapper(String index, boolean isPathValid,
 				boolean isOSNRValid, Route route, double requiredOSNR,
 				int nSlots) {
 			super(index, isPathValid, isOSNRValid, route, requiredOSNR, nSlots);
@@ -41,7 +41,7 @@ public class RSAMinLengthAlgorithm extends RSAAlgorithm {
 	}
 
 	@Override
-	protected RSAWrapper createRSAWrapper(int index, Route route,
+	protected RSAWrapper createRSAWrapper(String index, Route route,
 			Simulation simulation, Connection connection,
 			IsModulationFormat modulationFormat, int nSlots) {
 		return new RSAMinLengthWrapper(index, route.isPathValid(),

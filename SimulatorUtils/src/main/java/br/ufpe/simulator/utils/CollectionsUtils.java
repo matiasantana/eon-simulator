@@ -22,14 +22,15 @@ public class CollectionsUtils {
 		return collection == null || collection.isEmpty();
 	}
 
-	public static <T> List<T> subList(List<T> list, int size) {
-		List<T> newList = null;
-		if (list != null) {
-			newList = new ArrayList<T>();
-			for (int i = 0; i < size; i++) {
-				newList.add(list.get(i));
+	public static <T> List<T> diff(List<T> list1, List<T> list2) {
+		List<T> diffList = new ArrayList<T>();
+		if (list1 != null && list2 != null) {
+			for (T t : list1) {
+				if (!list2.contains(t)) {
+					diffList.add(t);
+				}
 			}
 		}
-		return newList;
+		return diffList;
 	}
 }

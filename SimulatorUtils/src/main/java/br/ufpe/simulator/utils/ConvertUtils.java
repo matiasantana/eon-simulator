@@ -1,6 +1,7 @@
 package br.ufpe.simulator.utils;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ConvertUtils {
@@ -51,5 +52,13 @@ public class ConvertUtils {
 
 	public static String convertToString(Object object) {
 		return object != null ? object.toString() : null;
+	}
+
+	public static <T> List<T> convertToList(Iterator<T> iterator) {
+		List<T> copy = new ArrayList<T>();
+		while (iterator.hasNext()) {
+			copy.add(iterator.next());
+		}
+		return copy;
 	}
 }

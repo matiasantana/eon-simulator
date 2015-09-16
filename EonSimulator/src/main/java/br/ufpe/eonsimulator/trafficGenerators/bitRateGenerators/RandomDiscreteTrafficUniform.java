@@ -20,4 +20,9 @@ public class RandomDiscreteTrafficUniform implements IsBitRateGenerator {
 				.size()));
 	}
 
+	@Override
+	public List<Double> getBitRates() {
+		return bitRates;
+	}
+
 }

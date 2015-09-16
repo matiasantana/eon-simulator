@@ -39,13 +39,14 @@ public class TrafficGenerator {
 	 * @param simulation
 	 * @return connection The created connection
 	 */
-	public Connection createConnection(Simulation simulation,
-			PhysicalElementPair elementPair) {
+
+	private Connection createConnection(Simulation simulation,
+			PhysicalElementPair elementPair, Double bitRate) {
 		Connection connection = new Connection();
 
 		connection.setPhysicalElementPair(elementPair);
 		// Generate bit rate
-		connection.setRequestedBitRate(bitRateGen.createBitRate(simulation));
+		connection.setRequestedBitRate(bitRate);
 
 		// Generate death rate
 		connection.setDisconnectionTime(deathRateGen
@@ -61,9 +62,20 @@ public class TrafficGenerator {
 		return connection;
 	}
 
+	public Connection createConnection(Simulation simulation,
+			PhysicalElementPair elementPair) {
+		return createConnection(simulation, elementPair,
+				bitRateGen.createBitRate(simulation));
+	}
+
 	public Connection createConnection(Simulation simulation) {
 		return createConnection(simulation,
 				trafficGen.createPhysicalPair(simulation));
+	}
+
+	public Connection createConnection(Simulation simulation, Double bitRate) {
+		return createConnection(simulation,
+				trafficGen.createPhysicalPair(simulation), bitRate);
 	}
 
 	/**

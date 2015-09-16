@@ -10,6 +10,7 @@ public class RSAAlgorithmFactory {
 
 	private static final String RSA_ALGORITHM_KEY = "simulation.rsaAlgorithm";
 	private static final String RSA_K_FILTER_KEY = "simulation.rsaAlgorithm.kFilter";
+	private static final String RSA_QOT_FILTER_KEY = "simulation.rsaAlgorithm.qotFilter";
 
 	public static IsRSAAlgorithm createRsaAlgorithm(
 			Properties properties,
@@ -18,22 +19,24 @@ public class RSAAlgorithmFactory {
 		String key = properties.getProperty(RSA_ALGORITHM_KEY);
 		int kFilter = ConvertUtils.convertToInteger(properties
 				.getProperty(RSA_K_FILTER_KEY));
+		boolean qotFilter = ConvertUtils.convertToBoolean(properties
+				.getProperty(RSA_QOT_FILTER_KEY));
 		switch (ConvertUtils.convertToInteger(key)) {
 		case 0:
 			rsaAlgorithm = new RSAMinHopMaxOSNRAlgorithm(
-					modulationFormatComparator, kFilter);
+					modulationFormatComparator, kFilter, qotFilter);
 			break;
 		case 1:
 			rsaAlgorithm = new RSAMinHopMinOSNRAlgorithm(
-					modulationFormatComparator, kFilter);
+					modulationFormatComparator, kFilter, qotFilter);
 			break;
 		case 2:
 			rsaAlgorithm = new RSAMinLengthAlgorithm(
-					modulationFormatComparator, kFilter);
+					modulationFormatComparator, kFilter, qotFilter);
 			break;
 		case 3:
 			rsaAlgorithm = new RSAMinCostAlgorithm(modulationFormatComparator,
-					kFilter);
+					kFilter, qotFilter);
 			break;
 		default:
 			break;
